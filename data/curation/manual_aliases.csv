@@ -1,0 +1,61 @@
+Famname,Candidate,Party,Country,source_cell,source_index
+Trump,Donald Trump,Republican Party,United States,ner_code.ipynb:5,0
+Biden,Joe Biden,Democratic Party,United States,ner_code.ipynb:5,1
+Hillary,Hillary Clinton,Democratic Party,United States,ner_code.ipynb:5,2
+Clinton,Hillary Clinton,Democratic Party,United States,ner_code.ipynb:5,3
+Obama,Barack Obama,Democratic Party,United States,ner_code.ipynb:5,4
+Volodymyr,Volodymyr Zelenskyy,Servant of the People,Ukraine,ner_code.ipynb:5,5
+Zelensky,Volodymyr Zelenskyy,Servant of the People,Ukraine,ner_code.ipynb:5,6
+Putin,Vladimir Putin,United Russia,Russia,ner_code.ipynb:5,7
+Harris,Kamala Harris,Democratic Party,United States,ner_code.ipynb:5,8
+Kamala,Kamala Harris,Democratic Party,United States,ner_code.ipynb:5,9
+Rishi,Rishi Sunak,Conservative Party,United Kingdom,ner_code.ipynb:5,10
+Sunak,Rishi Sunak,Conservative Party,United Kingdom,ner_code.ipynb:5,11
+Macron,Emmanuel Macron,La République En Marche!,France,ner_code.ipynb:5,12
+Emmanuel,Emmanuel Macron,La République En Marche!,France,ner_code.ipynb:5,13
+Scholz,Olaf Scholz,Social Democratic Party,Germany,ner_code.ipynb:5,14
+Olaf,Olaf Scholz,Social Democratic Party,Germany,ner_code.ipynb:5,15
+Jinping,Xi Jinping,Communist Party of China,China,ner_code.ipynb:5,16
+Xi,Xi Jinping,Communist Party of China,China,ner_code.ipynb:5,17
+Kim,Kim Jong-un,Workers' Party of Korea,North Korea,ner_code.ipynb:5,18
+Jong-un,Kim Jong-un,Workers' Party of Korea,North Korea,ner_code.ipynb:5,19
+Orbán,Viktor Orbán,Fidesz,Hungary,ner_code.ipynb:5,20
+Orban,Viktor Orban,Fidesz,Hungary,ner_code.ipynb:5,21
+Órban,Viktor Órban,Fidesz,Hungary,ner_code.ipynb:5,22
+Schröder,Gerhard Schröder,Social Democratic Party of Germany,Germany,ner_code.ipynb:5,23
+Schroeder,Gerhard Schröder,Social Democratic Party of Germany,Germany,ner_code.ipynb:5,24
+Jarosław,Jarosław Kaczyński,Law and Justice,Poland,ner_code.ipynb:5,25
+Jaroslaw,Jarosław Kaczyński,Law and Justice,Poland,ner_code.ipynb:5,26
+Kaczyński,Jarosław Kaczyński,Law and Justice,Poland,ner_code.ipynb:5,27
+Kaczynski,Jarosław Kaczynski,Law and Justice,Poland,ner_code.ipynb:5,28
+Hołownia,Szymon Hołownia,Polska 2050,Poland,ner_code.ipynb:5,29
+Holownia,Szymon Holownia,Polska 2050,Poland,ner_code.ipynb:5,30
+Przemysław,Przemysław Czarnek,Prawo i Sprawiedliwość,Poland,ner_code.ipynb:5,31
+Przemyslaw,Przemysław Czarnek,Prawo i Sprawiedliwość,Poland,ner_code.ipynb:5,32
+Gembicka,Anna Gembicka,Prawo i Sprawiedliwość,Poland,ner_code.ipynb:5,33
+Czarnek,Przemysław Czarnek,Prawo i Sprawiedliwość,Poland,ner_code.ipynb:5,34
+Czarnek,Przemyslaw Czarnek,Prawo i Sprawiedliwość,Poland,ner_code.ipynb:5,35
+Schetyna,Grzegorz Schetyna,Platforma Obywatelska,Poland,ner_code.ipynb:5,36
+Grzegorz,Grzegorz Schetyna,Platforma Obywatelska,Poland,ner_code.ipynb:5,37
+Trzaskowski,Rafał Trzaskowski,Platforma Obywatelska,Poland,ner_code.ipynb:5,38
+Trzaskowski,Rafal Trzaskowski,Platforma Obywatelska,Poland,ner_code.ipynb:5,39
+Berkowicz,Konrad Berkowicz,Confederation Liberty and Independence,Poland,ner_code.ipynb:5,40
+Berkowicz,Konrad Berkowicz,Confederation Liberty and Independence,Poland,ner_code.ipynb:5,41
+Zajączkowska-Hernik,Ewa Zajączkowska-Hernik,Nowa Nadzieja,Poland,ner_code.ipynb:5,42
+Zajaczkowska-Hernik,Ewa Zajaczkowska-Hernik,Nowa Nadzieja,Poland,ner_code.ipynb:5,43
+Zajaczkowska,Ewa Zajaczkowska-Hernik,Nowa Nadzieja,Poland,ner_code.ipynb:5,44
+Hernik,Ewa Zajaczkowska-Hernik,Nowa Nadzieja,Poland,ner_code.ipynb:5,45
+Macierewicz,Antoni Macierewicz,Prawo i Sprawiedliwość,Poland,ner_code.ipynb:5,46
+Gosek,Mariusz Gosek,Prawo i Sprawiedliwość,Poland,ner_code.ipynb:5,47
+Kowalski ,Janusz Kowalski,Prawo i Sprawiedliwość,Poland,ner_code.ipynb:5,48
+Krystian,Mariusz Krystian,Prawo i Sprawiedliwość,Poland,ner_code.ipynb:5,49
+Karozarowski,Piotr Korczarowski,Confederation Liberty and Independence,Poland,ner_code.ipynb:5,50
+Korczarowski,Piotr Korczarowski,Confederation Liberty and Independence,Poland,ner_code.ipynb:5,51
+Walker,Walker Justyna,Normal Country,Poland,ner_code.ipynb:5,52
+Fritz,Roman Fritz,Confederation Liberty and Independence,Poland,ner_code.ipynb:5,53
+Krasowicz,Krasowicz Justyna,Confederation Liberty and Independence,Poland,ner_code.ipynb:5,54
+Morawiecka,Mateusz Morawiecki,Prawo i Sprawiedliwość,Poland,ner_code.ipynb:5,55
+Morawiecki,Mateusz Morawiecki,Prawo i Sprawiedliwość,Poland,ner_code.ipynb:5,56
+Karnowski,Karnowski Jacek Krzysztof,Civic Coalition,Poland,ner_code.ipynb:5,57
+Morawiecki,Mateusz Morawiecki,Prawo i Sprawiedliwość,Poland,ner_code.ipynb:5,58
+Zieloni/KO,Civic Coalition,Civic Coalition,Poland,ner_code.ipynb:5,59
