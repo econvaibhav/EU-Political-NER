@@ -1,0 +1,293 @@
+Type,Entry,Variations,Party,Country,EU,source_file,source_sheet,source_row
+Name,Sebastian Tynkkynen,Sebastian Tynkkynen,Perussuomalaiset,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,2
+Party,Finns Party,"PS nuoret, Perussiomalaiset, Finns Party, PS, PS Nuoret, ps, Finns party",Finns Party,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,3
+Party,National Coalition Party,"Kokoomus, kokoomus, kok, national coalition, National Coalition",National Coalition Party,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,4
+Name,Yannick Lahti,Yannick Lahti,Others,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,5
+Name,Riikka Purra,"Riikka Purra, Purra",Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,6
+Name,Petteri Orpo,"orpo, Orpo, Petteri Orpo",National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,7
+Name,Matti Rönkä,Matti Rönkä,Others,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,8
+Name,YLE,YLE,Others,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,9
+Name,Timo Vornanen,"Vornanen, Timo Vornanen, vornanen",Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,10
+Name,Henna Virkkunen,"Henna Virkkunen, Virkkunen",National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,11
+Name,Li Andersson,"Li Andresson, Andersson, Li Andersson, LI, andersson",Vasemmistoliitto,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,12
+Party,Green League,"vihr, vihreät, Haminanseudun vihreät, Vihreät, Helsingin vihreät nuoret",Green League,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,13
+Party,,,,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,14
+Name,Piia Viitanen,Piia Viitanen,Social Democratic Party of Finland,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,15
+Party,Social Democratic Party of Finland,"Finland, SDP",Social Democratic Party of Finland,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,16
+Name,Alexander Stubb,"Stubb, Alex Stubb, Alexander Stubb",Perussuomalaiset,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,17
+Party,Left Alliance,"Vasemmistoliitto, vas",Left Alliance,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,18
+Name,Hjallis Harkimo,Hjallis Harkimo,Movement Now ,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,19
+Name,Timo Huhtamäki,Timo Huhtamäki,Others,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,20
+Name,Antti Lindtman,"Antti Lindtman, Antti Lindström, Lindtman",Social Democratic Party of Finland,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,21
+Name,Ville Niinistö,Ville Niinistö,The Green League,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,22
+Party,Centre Party,"Kesk, Keskusta",Centre Party,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,23
+Name,Sofia Virta,"Virta Sofia, Sofia Virta, VIrta",The Green League,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,24
+Name,Ville Merinen,"Ville, Ville Merinen, Terapeutti Ville",Others,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,25
+Name,Timo Harakka,Timo Harakka,Social Democratic Party of Finland,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,26
+Name,Anna Kontula,Anna Kontula,Left Alliance,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,27
+Name,Nasima Razmyar,Nasima Razmyar,Social Democratic Party of Finland,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,28
+Name,Yanis Varoufakis,"Yanis Varoufakis, Varoufakis",MeRA 25,Greece,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,29
+Name,Clare Daly,"Clare Daly, Claire Daly",IndependentS 4 Change,Ireland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,30
+Name,Timo Suhonen,Timo Suhonen,Social Democratic Party of Finland,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,31
+Name,Oras Tynkkynen,"Oras Tynkkynen, Tynkkynen",Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,32
+Name,Viktor Orban,"Orban, Viktor Orban",Fidesz,Hungary,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,33
+Name,Halla-Aho,"Halla-Aho, Jussi Halla-aho, Jussi Halla-Aho",Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,34
+Name,Donald Trump,"Trump, Trump jr.",Republican Party,United States,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,35
+Name,Vladimir Putin,"Vladimir Putin, Putin",United Russia,Russia,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,36
+Name,Miina-Anniina Heiskanen,"Heiskanen, Miina-Anniina Heiskanen",Social Democratic Party of Finland,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,37
+Name,Bernie Sanders,"Bernie Sanders, Bernie, Sanders",Independent,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,38
+Name,Harry Harkimo,"Harry Harkimo, Harkimo",Movement Now,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,39
+Name,Ursula von der Leyen,"Ursula Von der Leyen, von der Leyen, Ursula von der Leyen, von de Leyen, Ursula van den Leyen",Christian Democratic Union,Germany,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,40
+Name,Antti Kaikkonen,"Antti Kaikkonen, Kaikkonen",Centre Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,41
+Name,Max Chandler Mather,Max Chandler Mather,Australia Greens,Australia,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,42
+Name,Joe Biden,"Joe Biden, Biden, Biden Harris",Democratic Party,United States,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,43
+Name,Valtteri Jussila,Valtteri Jussila,Others,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,44
+Name,Maria Ohisalo,"Maria Ohisalo, Ohisalo",Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,45
+Name,Juhani Lohikoski,"Juhani Lohikoski, Lohikoski",Left Alliance,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,46
+Name,Aleksanteri Gustafsson,"Aleksanteri Gustafsson, Aleksanteri Gustaffson, Gustafsson",Social Democratic Party of Finland,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,47
+Name,Jussi Saramo,"Saramo, Jussi Saramo",Left Alliance,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,48
+Name,Volodymyr Zelenskyy,"Zelenskyy, Zelensky",Servant of the People,Ukraine,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,49
+Name,Péter Szijjártó,Péter Szijjártó,Fidesz – Hungarian Civic Alliance – Christian Democratic People's Party,Hungary,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,50
+Name,Juha Huhtala,"Huhtala, Juha Huhtala",Freedom Alliance,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,51
+Name,Mauri Peltokangas,"Peltokangas, Mauri Peltokangas",Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,52
+Name,Jocka Träskbäck,"jockaman, Jocke Träskbacka, Jocka Träskbäck",National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,53
+Name,Teija Makkonen,"Teijo Makkonen, Makkonen, Teija Makkonen",Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,54
+Name,Kaisa Jussila,"Kaisa Jussila, Jussila",National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,55
+Name,Minja Koskela,Minja Koskela,Left Alliance,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,56
+Name,Jessi Jokelainen,Jessi Jokelainen,Left Alliance,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,57
+Name,Niina Ratilainen,"Niina Ratilainen, Ratilainen, Nina Ratilainen",Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,58
+Name,Fatim Diarra,Fatim Diarra,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,59
+Name,Melanie Joly,Melanie Joly,Liberal Party,Canada,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,60
+Name,Arto Satonen,Arto Satonen,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,61
+Party,Svenska folkpartiet,SFP,Svenska folkpartiet,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,62
+Party,Christian Democrats,"Kristillisdemokraatit, KD",Christian Democrats,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,63
+Name,Viktor Órban,Órban,Fidesz,Hungary,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,64
+Name,Perttu Jussila,Perttu Jussila,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,65
+Name,Lauri Lindén,"Lauri Lindén, Lindén, lauri Linden, Lauri Linden, Lauri linden",Left Alliance,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,66
+Name,Joona Räsänen,"Joonas Räsänen, Joona Räsänen, Räsänen",Social Democratic Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,67
+Name,Petri Honkonen,"Pertti Honkonen, Pettti Honkonen, Honkonen, Petri Honkonen",Centre Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,68
+Name,The Green Party,"green party, the Green party, Green party",Green Party,Sweden,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,69
+Party,Fidesz–KDNP,Fidesz,Fidesz–KDNP,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,70
+Name,Iratxe García Pérez,Iratxe Gárcia Pérez,Spanish Socialist Workers' Party,Spain,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,71
+Name,Mika Aaltola,Mika Aaltola,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,72
+Name,Ben Zyskowicz,"Ben Zyskowicz, Ben Z, Ben Z.",National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,73
+Name,Niko A. Kauko,Niko A. Kauko,Others,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,74
+Name,Vapauden Liitto,vapauden liitto,Vapauden Liitto,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,75
+Name,Pekka Toveri,"Toveri, Pekka Toveri",National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,76
+Name,Emmanuel Macron,"Emmanuel Macron, Macron",Renaissance,France,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,77
+Name,Barack Obama,"Obama, Barack Obama",Democratic Party,United States,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,78
+Name,Social Democrats,"social democrats, Social Democrats",Social Democrats,Sweden,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,79
+Name,Sinimusta Liike,Sinimusta liike,Movement Now,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,80
+Name,Nanna Väätäinen,"Nanna Väätäinen, Nanna, Väätäinen",Perussuomalaiset,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,81
+Name,Julia Sangervo,"Julia Sangervo, Sangervo, juliaSangervo",Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,82
+Name,Ilmari Nurminen,"Ilmari Nurminen, Ilmari Nurmela",Social Democratic Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,83
+Name,Sara Seppänen,"Sara Seppänen, Seppänen",Perussuomalaiset,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,84
+Name,Annika Saarikko,"Annika Saarikko, Saarikko",Centre Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,85
+Name,Dimitri Qvintus,"Dimitri Qvintus, Dimitri Quintus, Qvintus",Social Democratic Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,86
+Name,Lotta Tuominen,"Tuominen, Lotta Tuominen",Social Democratic Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,87
+Name,Benjamin Netanyahu,"Netanjahu, Netanyahu",Likud,Israel,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,88
+Party,The Republicans–The Centrists,Republicans,The Republicans–The Centrists,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,89
+Party,Democratic Republican Party,"republican party, Republican party",Democratic Republican Party,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,90
+Name,Mika Lintilä,"Mika Lintilä, Lintilä, Lintila",Centre Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,91
+Name,Sauli Niinistö,"Niinistö, Sauli Niinistö",National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,92
+Name,Joakim Träskbäck,Träskbäck,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,93
+Name,Ivan Puopolo,Ivan Puopolo,Others,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,94
+Name,Shawn Huff,"SHuff, Shawn Huff, Shaunn Huff",Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,95
+Name,Mari Rantanen,Mari Rantanen,Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,96
+Name,Miko Bergbom,"Miko Bergbom, Bergbom",Perussuomalaiset,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,97
+Name,Eva Vlaardingerbroek,Eva Vlaardingerbroek,Others,Netherlands,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,98
+Name,Bella Forsgrén,Bella Forsgren,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,99
+Name,Rishi Sunak,Rishi Sunak,Conservative Party,United Kingdom,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,100
+Name,Atte Harjanne,"atteh, Harjanne, Atte Harjanne",Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,101
+Name,Lauri Laitinen,"Lauri Laitinen, Laitinen",Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,102
+Name,Jussi Hiippavuori,Hiippavuori,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,103
+Name,Sofia Merinen,Sofia,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,104
+Name,Tuulia Alanko,Tuulia Alanko,Others,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,105
+Party,Liberal Party – Freedom to Choose,Liberaalipuolue,Liberal Party – Freedom to Choose,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,106
+Name,Anna-Maja Henriksson,"Henriksson, Anna-Maja Hendrikson, Anna-Maja Hendrickson, Anna-Maja Hendriksson, Anna-Maja Henriksson",Swedish People's Party of Finland,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,107
+Name,Joakim Vigelius,"Joakim Vigelius, Vigelius, Joakim Vigelois",Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,108
+Name,Matias Mäkynen,Matias Mäkynen,Social Democratic Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,109
+Party,Blue-and-Black Movement,Blue&Black movement,Blue-and-Black Movement,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,110
+Name,Elisa Aaltola,"Aaltola, Elisa Aaltola",Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,111
+Name,Laura Huhtasaari,"Laura Huhtasaari, Huhtasaari",Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,112
+Name,Jukka Polvinen,Polvinen,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,113
+Name,European Greens,"European greens, European Greens",European Green Party,Europe-wide,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,114
+Name,Jouni Jussinniemi,"Jouni Jussinniemi, Jussinniemi, Jouni Jussiniemi",Left Alliance,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,115
+Name,Eero Heinäluoma,"Eero Heinäluoma, Heinäluoma",Social Democratic Party of Finland,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,116
+Name,Sanna Marin,Sanna Marin,Social Democratic Party of Finland,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,117
+Name,Ilkka Nuotio,Ilkka Nuotio,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,118
+Name,Andrej Plenković,Andrej Plenković,Croatian Democratic Union,Croatia,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,119
+Name,Nikolaj Villumsen,Nikolaj Villumsen,Red-Green Alliance,Denmark,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,120
+Name,Viktor Orbán,Viktor Orbán,Fidesz,Hungary,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,121
+Name,Left Alliance,"left Alliance, left alliance, Left Allicance, Left alliance, Left Alliance, Left allicance, left aliance",Left Alliance,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,122
+Name,Tiina Sandberg,Tiina Sandberg,Communist Party of Finland,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,123
+Name,Volt,"Volt, Volt Europa, Volt Deutschland",Volt Europa,Europe,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,124
+Party,Representative Democracy,Dr Asko,Representative Democracy,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,125
+Name,Ritva Elomaa,Ritva Elomaa,Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,126
+Name,Jaana Sandström,Jaana Sandström,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,127
+Name,Kaisa Garedew,Kaisa Garedew,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,128
+Name,Saara Hyrkkö,"Saara Hyrkkäinen, Saara Hyrkkö",Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,129
+Name,Pia Sillanpää,Pia Sillanpää,Social Democratic Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,130
+Name,Jari Koskela,Jari Koskela,Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,131
+Name,Teemu Keskisarja,Teemu Keskisarja,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,132
+Name,Jenni Pitko,Jenni Pitko,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,133
+Name,Jiri Mäntysalo,Jiri Mäntysalo,Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,134
+Party,Communist Party of Finland,SKP,Communist Party of Finland,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,135
+Name,Paco Diop,Paco Diop,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,136
+Name,Elokapina,Elokapina,Environmental Movement,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,137
+Name,Pinja Perholehto,"Pinja Perholehto, Perholehto",Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,138
+Name,Rosa Meriläinen,"Roosa Meriläinen, Rosa Meriläinen",Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,139
+Name,Ted Apter,"Ted Apter, Ted Upter, Apter",National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,140
+Name,Erkki Tuomioja,Erkki Tuomioja,Social Democratic Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,141
+Name,Tarja Halonen,Tarja Halonen,Social Democratic Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,142
+Name,Elsi Katainen,"Katainen, Elsi Kaltainen, Elsi Katainen",Centre Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,143
+Name,Eija-Riitta Korhola,Eija-Riitta Korhola,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,144
+Name,Hannariina Rantala,"Hannariina Rantala, Hennariikka Rantala, Rantala, Hennariina Rantala",Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,145
+Name,Miapetra Kumpula-Natri,"MiaPetra Kumpula-Natri, Miapetra Kumpula-Natri, Miiapetra Kumpula-Natri",Social Democratic Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,146
+Name,Teuvo Hakkarainen,Teuvo Hakkarainen,Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,147
+Name,Hanna Parkkinen,Hanna Parkkinen,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,148
+Name,Aura Salla,"Salla, Aura Salla",National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,149
+Name,Mai Kivelä,Mai Kivelä,Left Alliance,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,150
+Name,Johanna Ekman,Ekman,Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,151
+Name,Jenna Simula,Jenna Simula,Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,152
+Name,Katri Kulmuni,"Katri Kulmuni, Kulmuni",Centre Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,153
+Party,Alternative for Germany,"AfD, Alternative für Deutschland",Alternative for Germany,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,154
+Name,Greens/EFA,"Greensefa, greensefa, Greens-EFA",Greens/EFA,European Union,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,155
+Name,Wille Rydman,Wille Rydman,Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,156
+Name,Jean-Marie Le Pen,Le Pen,Comités Jeanne,France,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,157
+Name,Giorgia Meloni,"Giorgia Meloni, Meloni",Brothers of Italy,Italy,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,158
+Name,Jordan Bardella,Bardella,National Rally,France,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,159
+Name,Dominik Tarczyński,Dominik Tarczyński,Law and Justice,Poland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,160
+Name,Suna Kymäläinen,"Kymäläinen, Suna Kymäläinen",Social Democratic Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,161
+Name,Tuomas Kettunen,Tuomas Kettunen,Centre Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,162
+Name,Center Party,Center,Centre Party,Sweden,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,163
+Name,Mauri Pekkarinen,Mauri Pekkarinen,Centre Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,164
+Name,Petri Sarvamaa,Petri Sarvamaa,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,165
+Name,Antti Rinne,Antti Rinne,Social Democratic Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,166
+Name,Björn Wahlroos,Björn Walhroos,Others,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,167
+Name,Mikko Lohi,Lohi,Centre Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,168
+Name,Matti Vanhanen,Matti Vanhanen,Centre Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,169
+Name,Päivi Räsänen,Päivi Räsänen,Christian Democrats,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,170
+Name,Antti Kurvinen,"antti kurvinen, Antti Kurvinen",Centre Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,171
+Name,Joonas Pesonen,Joonas Peso,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,172
+Name,Kimmo Sasi,Kimmo Sasi,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,173
+Name,Charly Salonius-Pasternak,Chairlie Salonius-Pasternak,Others,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,174
+Name,Pekka Aittakumpu,Pekka Aittakumpu,Centre Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,175
+Name,Sanna Nieminiitty,Sanna Nieminiitty,Social Democratic Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,176
+Name,Marin Miletić,Marin,The Bridge,Croatia,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,177
+Name,Iiris Suomela,Iiris Suomela,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,178
+Name,Nicole Shanahan,Nicole Shanahan,,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,179
+Name,Aino-Kaisa Pekonen,Aino-Kaisa Pekonen,Left Alliance,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,180
+Name,Jonas Sjöstedt,Jonas Sjöstedt,The Left Party,Sweden,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,181
+Name,Jenni Jokelainen,Jenni Jokelainen,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,182
+Name,Tiina-Maria Sandberg,Tiina-Maria Sandberg,Communist Party of Finland,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,183
+Name,Pauli Kiuru,Pauli Kiuru,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,184
+Name,Elina Valtonen,Elina Valtonen,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,185
+Name,Jukka Kopra,Jukka Kopra,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,186
+Name,Minna Minkkinen,Minna Minkkinen,Left Alliance,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,187
+Name,Henriina Rantala,Henriina Rantala,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,188
+Name,Olli Rehn,Olli Rehn,Centre Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,189
+Name,Paavo Väyrynen,Paavo Väyrynen,Centre Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,190
+Name,Robert F. Kennedy Jr.,Robert F. Kennedy Jr,Democratic Party,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,191
+Name,Susanna Kierkegaard,Susanna Kierkegaard,Social Democratic Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,192
+Name,Perussuomalaiset Nuoret,Perussuomalaiset,Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,193
+Name,Onni Härkönen,Onni Härkönen,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,194
+Name,Jani Mäkelä,Jani Mäkelä,Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,195
+Name,Geert Wilders,Geert Wilders,Party for Freedom,Netherlands,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,196
+Name,Pasi Liukkonen,"Pasi Liukkonen, Liukkonen",National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,197
+Name,Merja Kyllönen,Merja Kyllönen,Left Alliance,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,198
+Name,Noora Korpela,Noora Korpela,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,199
+Name,Juho Salmi,Juho Salmi,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,200
+Name,Eetu Korhonen,Eetu Korhonen,Centre Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,201
+Name,Marine Le Pen,"Marine Le Pen, Marin Le Pen",National Rally,France,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,202
+Name,Robert de Niro,Robert de Niro,Defend the Children,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,203
+Name,Sirpa Pietikäinen,"Pietikäinen, Sirpa Pietikäinen",National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,204
+Name,The Christian Democrats,christian democrats,Christian Democrats,Sweden,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,205
+Name,Tuuli Kousa,"Tuuli Kousa, Kousa",Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,206
+Name,Marc Botenga,Marc Botenga,Workers’ Party of Belgium,Belgium,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,207
+Name,Krista Mikkonen,Krista Mikkonen,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,208
+Party,Swedish People's Party of Finland,"rkp, RKP",Swedish People's Party of Finland,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,209
+Name,Javier Milei,Milei,La Libertad Avanza,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,210
+Name,Christine Lagarde,"Christine Legarde, Christine Lagarde",Others,France,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,211
+Name,Simo Grönroos,"Simo Grönroos, Simon Grönroos",Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,212
+Name,Mick Wallace,Mick Wallace,Independents 4 Change,Ireland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,213
+Name,Grace O'Sullivan,Grace o'Sullivan,Green Party,Ireland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,214
+Name,Ehud Barak,Ehud Barak,Israel Democratic Party,Israel,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,215
+Name,Malala Yousafzai,Malala,Others,Pakistan,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,216
+Name,Krista Kiuru,Krista Kiuru,Social Democratic Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,217
+Name,Roberta Metsola,"Robert Metsola, Roberta Metsola",Nationalist Party,Malta,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,218
+Name,Terry Reintke,"Terry Reithke, Terry Reitnke, Terry Reintke",The Greens,Germany,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,219
+Name,Inka Hopsu,"Hopsu, Inka Hopsu",Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,220
+Name,Janne Sankelo,"Sankelo, Janne Sankelo",National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,221
+Name,Ari Koponen,Ari Koponen,Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,222
+Name,Kaisu Juuso,Kaisu Juuso,Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,223
+Name,Tytti Tuppurainen,Tytti Tuppurainen,Social Democratic Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,224
+Name,Heidi Hautala,Heidi Hautala,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,225
+Party,The Open Party,avoin Puolue,The Open Party,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,226
+Name,Susanne Päivärinta,"Susanne Päivärinta, Päivärinta",,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,227
+Name,Gashaw Bibani,Bibani,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,228
+Name,Helin Elfgren,"Helin, Elfgren",National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,229
+Name,Valtteri Paakki,Paakki,Centre Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,230
+Name,Emmi Lintonen,Lintonen,Social Democratic Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,231
+Name,Kim Berg,"Kim berg, Kim Berg",Social Democratic Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,232
+Name,Antti Heikkilä,"Heikkilä, Antti Heikkilä",National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,233
+Name,Susa Vikeväkorva,Vikeväkorva,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,234
+Name,Viivi Järvelä,Järvelä,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,235
+Name,Jutta Urpilainen,Urpilainen,Social Democratic Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,236
+Name,Niina Malm,Niina Malm,Social Democratic Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,237
+Name,Piia Elo,Pia Elo,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,238
+Name,Unna Eteläinen,Unna Eteläinen,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,239
+Name,Niklas Villumsen,Niklas Villumsjen,Red-Green Alliance,Denmark,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,240
+Name,Harri Pikkarainen,Harri Pikkarainen,Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,241
+Name,Susanna Kisner,"Susanna Kirsner, Susanna Kisner",Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,242
+Name,Henrik Meinander,Henrik Meinander,Others,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,243
+Name,Roosa Grönberg,Grönberg,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,244
+Name,Esko Kiviranta,Kiviranta,Centre Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,245
+Name,Peppi Seppälä,Seppälä,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,246
+Name,Maija Kuivalainen,Kuivalainen,Left Alliance,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,247
+Name,Oscar Byman,Byman,Swedish People's Party of Finland,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,248
+Name,Dita Charanzová,Dita Charanzová,ANO 2011,Czech Republic,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,249
+Name,Mika Niikko,Niikko,Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,250
+Party,Movement Now,Liike Nyt,Movement Now,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,251
+Name,Justin Trudeau,"Trudeau, Justin JP Trudeau",Liberal Party of Canada,Canada,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,252
+Name,Renew Europe,"Renew Europe, Renew",Renew Europe,Europe,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,253
+Name,Eva Biaudet,Biaudet,Swedish People's Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,254
+Name,Patrik Borg,"Borg, Patrik Borg",,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,255
+Name,Markku Rentto,"Markku Rentto, Rentto, Markku Rento",National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,256
+Party,Sweden Democrats,S&D,Sweden Democrats,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,257
+Name,Petrus Pennanen,Petrus Pennanen,Pirate Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,258
+Name,Maria Miala,Miala,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,259
+Name,Lasse Lehtinen,Lasse Lehtinen,Social Democratic Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,260
+Name,Timo Kaunisto,"Kaunisto, Timo Kaunisto",Centre Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,261
+Name,Ville Merisalo,Terapeutti Ville Merisalo,,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,262
+Name,Janne Hirvasvoipio,"Janne Hirvasvoipio, Janne Hirvasvuo",Left Alliance,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,263
+Name,Kimmo Kiljunen,Kiljunen,Social Democratic Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,264
+Name,Pekka Haavisto,"Pekka Haavisto, Haavisto",Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,265
+Name,Frida Sigfrids,Sigfrids,Swedish People's Party of Finland,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,266
+Name,Anita Westerholm,Westerholm,Swedish People's Party of Finland,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,267
+Name,Damian Boeselager,"Damian Boeselager, Damien Boeselager",Volt Germany,Germany,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,268
+Name,Donald Tusk,Donald Tusk,Civic Platform Party,Poland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,269
+Name,Manfred Weber,Manfred Weber,Christian Social Union,Germany,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,270
+Name,Paavo Arhinmäki,Paavo Arhinmäki,Left Alliance,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,271
+Name,Mikko Lundén,Mikko Lunden,Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,272
+Name,Lulu Ranne,Lulu Ranne,Finns Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,273
+Party,The Left,Die Linke,The Left,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,274
+Name,Valérie Hayer,Valerie Hayer,Renaissance,France,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,275
+Name,Sari Multala,Multala,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,276
+Name,Heikki Autto,auttoheikki,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,277
+Name,Veera Mertsola,Veera Mertsola,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,278
+Name,Tiina Elo,Tiina Elo,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,279
+Name,Judith Butler,Judith Butler,,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,280
+Name,Jan Vapaavuori,Jan Vapaavuori,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,281
+Name,Perttu Helin,Perttu Helin,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,282
+Name,Sauli Seittenranta,Sauli Seittenranta,Nation Coalition Party ,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,283
+Name,Samuel Broman,Samuel Broman,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,284
+Name,Silvia Modig,Silvia Modig,Left Alliance,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,285
+Name,Balázs Orbán,Orbán,Fidesz,Hungary,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,286
+Name,Olaf Scholz,Olof Scholz,Social Democratic Party,Germany,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,287
+Name,Julia Ståhle,Julia Ståhle,Green League,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,288
+Name,Sari Essayah,Sari Essayah,Christian Democrats,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,289
+Name,Urho Kekkonen,Kekkonen,Centre Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,290
+Name,Linus Torvalds,Linus Torvalds,Others,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,291
+Name,Ville Rydman,Ville Rydman,National Coalition Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,292
+Name,Sari Helin,Sari Helin,,Unknown,0,FINAL_NER_2025_17_01/Glossary/Finland_Glossary.xlsx,Glossary,293

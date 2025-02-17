@@ -1,0 +1,101 @@
+Type,Entry,Variations,Party,Country,EU,source_file,source_sheet,source_row
+Name,Emmanuel Macron,"Aymeric Emmanuel Macron, Emmanuel Macron, macron, Emanuel Macron, Macron, E Macron",Renaissance,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,2
+Name,Marine Le Pen,"Marine Maréchal Le Pen, Marine le Pen, Marine Le Pen",National Rally,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,3
+Name,François Hollande,"François Hollande, Hollande",Socialist Party,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,4
+Name,Manon Aubry,"Manon Aurbry, Mano Aubry, Manon Aubry, Mamon Aubry, Manon aubry, Manon Aubery, Manon Aurby, Audray Manon, Aubry",France Unbowed,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,5
+Name,Manuel Bompard,"Bompardb, Manuel Bompard, Bompard, Manuel Bomard, Manuel Bombard, Bompart",La France Insoumise,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,6
+Name,Jean-Luc Mélenchon,"jL Melenchon, J L Melenchon, JL Melemchon, Jean Luc Mélenchon, Jl Melanchon, JM Melenchon, Jl Melenchon, JL Melanchon, Jean Luc Melenchon, Jean-Luc Mélenchon, JL Melenchon, Mélenchon, Jean-Luck Mélenchon",France Unbowed,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,7
+Name,Louis Boyard,"louis Boyard, Boyard, Luois Boyard, Louis Broyard, Louis Boyars, Luis Boyard, Louid Boyard, Louis Boyard",La France Insoumise,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,8
+Name,Nicolas Sarkozy,"Nikolas Sacrozy, Nicolas Sarcozy, Nikolas Sarkozy, Nikola Sqrkozy, Sarkozy, Nicolas Sarkozy",The Republicans,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,9
+Name,François-Xavier Bellamy,"bellamy, Bellamy, Fx Bellamy, François-Xavier Bellamy, X Bellamy, François Xavier Bellamy, FX Bellamy",The Republicans,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,10
+Name,Jean Marc Zulesi,Jean Marc Zulesi,Renaissance,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,11
+Name,Vladimir Putin,"Vladimir Poutine, V. Putin, Vladimir Putin, Vladimir Putine, Putin",United Russia,Russia,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,12
+Name,Gabriel Attal,"Gavbiel Attal, Gagriel Attal, gabriel attal, Attal, Gabriel Attal, Gabrial Attal, Gabtiel Attal, G Attal",La République En Marche!,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,13
+Name,Jacques Attali,Jacque Attali,Others,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,14
+Party,,,,Unknown,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,15
+Name,Yaël Braun-Pivet,"Yaël Braun-Pivet, Yael Braun-Pivet",Renaissance,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,16
+Name,Benjamin Netanyahu,Netanyahu,Likud,Israel,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,17
+Name,Rima Hassan,"rima hassan, Rima Hassan",France Unbowed,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,18
+Name,Xi Jinping,Xi Jinping,Communist Party of China,China,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,19
+Name,Jordan Bardella,"Jordna Bardella, Jordan Badrella, Jondan Bardella, Bordella, Jorndan Bardella, Jodran Bardella, Jordan Bardella, Bardella, Jordan Bardellq, Jordnan Bardella, Bardellat, Jordql Barldella",National Rally,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,20
+Name,Aymeric Caron,"Aymeric Caron, Caron Aymeric Manuel Bompard, Aymric Caron",Ecological Revolution for the Living,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,21
+Name,Bruno Le Maire,"Bruno LeMaire, Bruno Le Maire",Renaissance,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,22
+Name,Jean-Marie Le Pen,"Le pen, Jean Marie Le Pen, Le Pen",Comités Jeanne,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,23
+Name,Léon Deffontaines,"Leffontaines, Léon Deffontaines, Deffontaines, Leon Deffontaines, Leon Defontaines, Leon Deffonaine, Leon Deffontaine",French Communist Party,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,24
+Name,Valérie Hayer,"Valérie Hayer, Velerie Hayer, Vaérie Hayer, Valerie Heyer, Hayer, Valerie Hqyer, Valery Hayer, Valerie Hayer",Renaissance,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,25
+Name,Éric Zemmour,"Eric Zemmour, Zemmour, Zemoour, Eric Zemoour",Reconquest,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,26
+Party,La France Insoumise–PG–GES–REV–Péyi-A–PLR,LFI,La France Insoumise–PG–GES–REV–Péyi-A–PLR,Unknown,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,27
+Name,Mathilde Androuët,"Mathilde Panot, Mathilde Panont",National Rally,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,28
+Name,Marion Maréchal Le Pen,"Marion Maréchal le Pen, Marion Maréchal Le pen, Marion Marechale Le Pen, marion Marchal, Maréchal Le Pen, Marion Maréchal Le Pen, Marion Maréchal le pen, Marion Mérchal Le pen, Marion Marechal Le Pen, Marion Maréchale Le Pen, Marion Maréchal",Identity–Freedoms,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,29
+Name,Raphaël Glucksmann,"Rafael Glucksmann, Rafael Glucksman, Raphael Gluksman, Gluksmann, Gluksman, Glucksmann, Raphalel Glucksmann, Raphael Glucksmann",Place Publique,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,30
+Name,Jean-Luc Melenchon,"Melenchon, Jean-Luc Melenchon",France Unbowed,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,31
+Name,Catherine Griset,Catherine Griset,National Rally,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,32
+Name,Marie Toussaint,"Marie Toussaint, Marine Toussaint, Marie Toussant",The Ecologists,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,33
+Name,The Left,the left party,Radical Party of the Left–R&PS–Volt–MdP–MDC–CSDR,Unknown,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,34
+Name,François Asselineau,"Asselineau, François Asselineau",Popular Republican Union,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,35
+Name,Sandrine Rousseau,Sandrine Rousseau,The Ecologists,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,36
+Party,The Republicans–The Centrists,"Les Républicains, Les républicains, LR",The Republicans–The Centrists,Unknown,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,37
+Name,Emmanuel Macron,"Aymeric Emmanuel Macron, Emmanuel Macron, macron, Emanuel Macron, Macron, E Macron",La République En Marche!,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,38
+Party,Popular Republican Union,UPR,Popular Republican Union,Unknown,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,39
+Name,Valérie Pécresse,"Valerie Pecraisse, Pécresse, Valérie Pécresse, Valerie Pecresse",The Republicans,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,40
+Party,National Rally–LAF–LDP,"National Rally, RN, Français",National Rally–LAF–LDP,Unknown,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,41
+Party,Reconquête–MC,"Reconquête, reconquête",Reconquête–MC,Unknown,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,42
+Name,David Guiraud,"David Guirau, David Guiraud, David Giraud",La France Insoumise,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,43
+Name,Alma Dufour,"Alma Dufour, Alma Dufur, Aalma Dufour",La France Insoumise,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,44
+Party,Defend the Children,"Philippe de Villiers, Pierre de Gaulle",Defend the Children,Unknown,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,45
+Name,Meyer Habib,"Habib, Mayer Habib, Habib Hayer, Meyer Habib",The Republicans,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,46
+Name,Nadine Morano,Nadine Morano,The Republicans,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,47
+Name,Sébastien Delogu,"Sebastien Delogu, Sébastien Delogu, Sébastien Dolugu",La France Insoumise,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,48
+Name,Sarah Knafo,"Sara Knafo, Sarah Knafo, Darah Knafo",Reconquest,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,49
+Name,Céline Imart,"Céline Imart, Céline Impart",The Republicans,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,50
+Name,Maria Zakharova,Maria Zakharova,Others,Russia,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,51
+Name,Papacito,"Papacito, Capacito",Others,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,52
+Name,Florian Philippot,"Philippot, Florian Flippot, Florian Philippot, Florian Philoppot, François Philippot",The Patriots,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,53
+Name,David Lisnard,Lisnard,The Republicans,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,54
+Name,Prisca Thevenot,"Prisca Thevenot, Priscat Thévenot",Renaissance,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,55
+Party,Renaissance–MoDem–Horizons–RAD–UDI–FP–FED–CD–CÉR,Renaissance,Renaissance–MoDem–Horizons–RAD–UDI–FP–FED–CD–CÉR,Unknown,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,56
+Name,Rassemblement National,"National Assembly, Rassemblement national",National Rally,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,57
+Name,Renew Europe,Renew,Renew Europe,Europe,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,58
+Name,Jean Lassalle,"Lassalle, Jean Lassalle",Résistons!,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,59
+Name,Volodymyr Zelenskyy,Volodymyr Zelensky,Servant of the People,Ukraine,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,60
+Name,François Ruffin,"François Raffin, Francois Raffin, François Ruffin, Ruffin, Raffin, Francois Ruffin",France Unbowed,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,61
+Name,Olivier Faure,Faure,Socialist Party,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,62
+Party,Socialist Party–Place Publique–New Deal,PS,Socialist Party–Place Publique–New Deal,Unknown,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,63
+Name,Éric Ciotti,"Ciotti, Eric Ciotti",The Republicans,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,64
+Name,Julien Odoul,Julien Odoul,National Rally,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,65
+Name,Jean Messiha,Jean Messiha,Reconquête,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,66
+Name,Laurent Wauquiez,"Wauquiez, Laurent Wauquiez",The Republicans,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,67
+Name,Marine Tondelier,Marine Tondelier,Europe Ecology – The Greens,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,68
+Party,The Ecologists,"Greens, green, Green",The Ecologists,Unknown,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,69
+Name,Fabien Roussel,Fabien Roussel,French Communist Party,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,70
+Party,French Communist Party–FGR–PCR–PCM–HeD,"PCF, Communist party, Communist, French Communist Party",French Communist Party–FGR–PCR–PCM–HeD,Unknown,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,71
+Name,Joe Biden,Joe Biden,Democratic Party,United States,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,72
+Party,The Patriots,The Patriotes,The Patriots,Unknown,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,73
+Name,European Left,Left,Radical Party of the Left–R&PS–Volt–MdP–MDC–CSDR,Unknown,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,74
+Party,Future,"F. Philoppot, F Holande",Future,Unknown,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,75
+Name,Rassemblement National,"National Assembly, Rassemblement national",National Rally–LAF–LDP,Unknown,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,76
+Name,Manuel Valls,Manuel Valls,Renaissance,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,77
+Party,Sweden Democrats,S&D,Sweden Democrats,Unknown,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,78
+Name,Ursula von der Leyen,"Ursula von der Leyen, Ursula Van der Leyen",Christian Democratic Union,Germany,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,79
+Name,Nicolas Bay,Nicolas Bay,Reconquest,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,80
+Name,Matthieu Valet,Matthieu Valet,National Rally,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,81
+Party,Socialist Party–Place Publique,Place Publique,Socialist Party–Place Publique,Unknown,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,82
+Name,Stanislas Rigault,Stanislas Rigault,Reconquête,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,83
+Party,Alliance,A. Leaument,Alliance,Unknown,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,84
+Name,David Cormand,David,The Ecologists,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,85
+Name,Lionel Jospin,Lionel Jospin,Socialist Party,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,86
+Name,Julien Rochedy,Julien Rochedy,Others,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,87
+Name,Rachida Dati,Rachida Daty,Independant,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,88
+Name,Sergey Lavrov,Sergey Lavrov,Others,Russia,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,89
+Name,Guillaume Peltier,Guillaume Peltier,Reconquest,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,90
+Name,Léon Defontaine,Léon Defontaine,Others,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,91
+Party,Rural Alliance,"Rural Alliance, L'Alliance Rurale, L'alliance rurale",Rural Alliance,Unknown,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,92
+Name,Giorgia Meloni,Giorgia Meloni,Brothers of Italy,Italy,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,93
+Party,The Patriots–VIA,"LP, Les Patriotes",The Patriots–VIA,Unknown,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,94
+Name,Jean-Marc Jancovici,Jean-Marc Jancovici,Others,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,95
+Party,Équinoxe,"Équinoxe, Equinoxe",Équinoxe,Unknown,0,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,96
+Name,Sébastien Chenu,Sébastien Chenu,National Rally,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,97
+Name,Charles Consigny,Charles Consigny,The Republicans,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,98
+Name,Virginie Joron,Virginie Joron,National Rally,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,99
+Name,Frédéric Maillot,Frédéric Maillot,For Réunion,France,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,100
+Name,Marc Botenga,Marc Botenga,Workers’ Party of Belgium,Belgium,1,FINAL_NER_2025_17_01/Glossary/France_Glossary.xlsx,Glossary,101
