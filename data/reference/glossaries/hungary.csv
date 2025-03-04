@@ -1,0 +1,101 @@
+Type,Entry,Variations,Party,Country,EU,source_file,source_sheet,source_row
+Name,Gergely Karácsony,"Karacsony Gergely, Karácsony, Karácsony Gergely",Dialogue for Hungary,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,2
+Name,Péter Magyar,"magyar peter, Magyar Péter, magyar péter, Magyar Peter",Respect and Freedom Party,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,3
+Party,Fidesz–KDNP,"Fidesz, fidesz, KDNP, Kdnp, kdnp",Fidesz–KDNP,Unknown,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,4
+Name,Viktor Orban,"orban, Orban",Fidesz,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,5
+Name,Péter Róna,Róna Péter,,Unknown,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,6
+Party,Respect and Freedom Party,"Tisza, tisza Part, Tisza part, tisza part, Tisza Part, Tisza Párt",Respect and Freedom Party,Unknown,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,7
+Party,Momentum Movement,"mometum, Momentum, Mmentum, momentum",Momentum Movement,Unknown,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,8
+Name,Anna Donáth,"Donath Anna, donath anna, Donáth Anna",Momentum Movement,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,9
+Name,László Toroczkai,"Torockay, Toroczkai, Torockai Laszlo, Toroczkai László, Torockai, torockai",Our Homeland Movement,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,10
+Name,Mi Hazánk,"Mi Hazánk, Mi hazánk, Mi Haznak, Mi hazank, Mi Hazank, mi hazan, mi hazank, mi hazánk",Our Homeland Movement,Unknown,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,11
+Name,Gergely Gulyás,Gulyás Gergely,Fidesz,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,12
+Name,Viktor Orbán,"orbán viktor, Orbán Viktor",Fidesz,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,13
+Party,Polish Initiative,Polish,Polish Initiative,Unknown,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,14
+Party,,,,Unknown,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,15
+Name,Balázs Orbán,"Orbán Balázs, Orbán",Fidesz,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,16
+Name,Donald Trump,"Trump, Donald Trump",Republican Party,United States,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,17
+Name,Dobrev Klára,"dobrev klara, Dobrev Klara, Dobrev Klára",Democratic Coalition,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,18
+Name,András Kulja,Kulja András,Respect and Freedom Party,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,19
+Party,Alternative for Germany,AfD,Alternative for Germany,Unknown,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,20
+Name,Péter Szijjártó,"Szijjártó Péter, Szíjjártó Péter",Fidesz – Hungarian Civic Alliance – Christian Democratic People's Party,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,21
+Name,Peter Szijjarto,Szijjarto Peter,Fidesz,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,22
+Party,DK–MSZP–Dialogue Alliance,"Demokratikus Koalíció, DK, Párbeszéd, Dk, dk",DK–MSZP–Dialogue Alliance,Unknown,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,23
+Name,Deutsch Tamás,"deutsch tamás, Deutsch Tamás, deutsh tamas",Fidesz,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,24
+Name,Nagy Ervin,Nagy Ervin,TISZA Party,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,25
+Name,Márki-Zay Péter,"márki zay péter, Márky-Zay Péter, Márki-Zay, Márki-Zay Péter",Everyone’s Hungary Movement,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,26
+Name,Antal Rogán,Rogán Antal,Fidesz,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,27
+Party,Hungarian Two-Tailed Dog Party,"mkkp, MKKP",Hungarian Two-Tailed Dog Party,Unknown,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,28
+Name,Eva Vlaardingerbroek,Eva Vlaardingerbroek,Others,Netherlands,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,29
+Name,Richárd Barabás,Barabás Richárd,Dialogue for Hungary,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,30
+Name,Sulyok Tamás,Sulyok Tamás,Fidesz,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,31
+Name,Manfred Weber,Manfred Weber,Christian Social Union,Germany,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,32
+Name,András Fekete-Győr,Fekete-Győr András,Momentum Movement,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,33
+Name,Vitézy Dávid,Vitézy Dávid,Podmaniczky Movement,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,34
+Name,Ákos Hadházy,Hadházy Ákos,Independent,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,35
+Name,Tamás Menczer,Menczer Tamás,Fidesz,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,36
+Name,Bas Eickhout,"Bas Eickhaut, Bas Eickhout",The Greens,Netherlands,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,37
+Name,Terry Reintke,"Terri Reintke, Terry Reintke",The Greens,Germany,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,38
+Name,Emmanuel Macron,"Macron, Emanuel Macron",La République En Marche!,France,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,39
+Name,Kovács Gergely,Kovács Gergely,Fidesz,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,40
+Name,Jakab Péter,Jakab Péter,Jobbik,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,41
+Name,Gyurcsány Ferenc,Gyurcsány Ferenc,Democratic Coalition,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,42
+Name,Mikko Lohi,Mikko,Centre Party,Finland,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,43
+Name,David Pressman,Pressman,Democratic Party,United States,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,44
+Name,Kulja András,Kulja Viktor,TISZA Party,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,45
+Name,Gyöngyösi Márton,Gyöngyösi Márton,Jobbik,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,46
+Party,Jobbik – Conservatives,Jobbik,Jobbik – Conservatives,Unknown,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,47
+Name,Cseh Katalin,"Cseh Katalin, cseh katalin",Momentum Movement,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,48
+Name,Sergey Lavrov,Lavrov,Others,Russia,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,49
+Name,Volodymyr Zelenskyy,Zelensky,Servant of the People,Ukraine,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,50
+Name,Schiffer András,Schiffer András,Politics Can Be Different / LMP – Hungary's Green Party,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,51
+Name,Ungár Péter,Ungár Péter,Politics Can Be Different / LMP – Hungary's Green Party,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,52
+Name,Joe Biden,Biden,Democratic Party,United States,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,53
+Name,Vladimir Putin,Putin,United Russia,Russia,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,54
+Name,George W. Bush,GW Bush,Republican Party,United States,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,55
+Name,Charles III,Charles III,,Unknown,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,56
+Name,Bernie Sanders,Bernie Sanders,Independent,Finland,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,57
+Name,Theresa May,Theresa May,Conservative Party,United Kingdom,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,58
+Name,Margaret Thatcher,Thatcher,Conservative Party,United Kingdom,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,59
+Name,Kósa Lajos,Kósa Lajos,Fidesz,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,60
+Name,Charles Consigny,Charles,The Republicans,France,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,61
+Name,Konrad Adenauer,Adenauer,Christian Democratic Union,Germany,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,62
+Name,Péter Márki-Zay,"MZP, MSZP",Everybody's Hungary People's Party,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,63
+Name,Ursula von der Leyen,"Von der Leyen, von der Leyen, Ursula von der Leyen",Christian Democratic Union,Germany,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,64
+Party,Solution Movement,Megoldás Mozgalom,Solution Movement,Unknown,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,65
+Name,Schmuck Andor,Schmuck Andor,Social Democratic Party,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,66
+Name,Szentkirályi Alexandra,Szentkirályi Alexandra,Fidesz,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,67
+Name,Vona Gábor,Vona Gábor,Jobbik,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,68
+Name,Móga Bernadett,Móga Bernadett,Democratic Coalition - Momentum Movement - Jobbik - LMP-Hungary's Green Party - Hungarian Socialist Party - Dialogue - The Greens' Party,Bulgaria,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,69
+Name,Schmitt Mária,Schmitt Mária,Others,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,70
+Name,Lázár János,Lázár János,Fidesz,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,71
+Name,Nagy Márton,Nagy Márton,Fidesz,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,72
+Name,Jair Bolsonaro,Bolsonaro,Liberal Party,Brazil,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,73
+Name,Leonid Ilyich Brezhnev,Brezhnev,Communist Party of the Soviet Union,Russia,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,74
+Name,Semjén Zsolt,Semjén Zsolt,Christian Democratic People's Party,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,75
+Name,Baranyi Krisztina,"Baranyi Krisztina, Baranyai Krisztina",Independent,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,76
+Party,LMP – Hungary's Green Party,Green,LMP – Hungary's Green Party,Unknown,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,77
+Name,Le Marietta,Le Marietta,Hungarian Two-Tailed Dog Party,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,78
+Name,Emmanuel Macron,"Macron, Emanuel Macron",Renaissance,France,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,79
+Name,Fekete Győr András,Fekete Győr,Momentum Movement,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,80
+Name,Giorgia Meloni,Giorgia Meloni,Brothers of Italy,Italy,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,81
+Name,Karsay Ferenc,Karsay Ferenc,Fidesz,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,82
+Name,Szájer József,Szájer József,Fidesz,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,83
+Name,Dóra Dúró,Dúró Dóra,Our Homeland Movement,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,84
+Name,CDU,CDU,Unitary Democratic Coalition,Portugal,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,85
+Name,Olaf Scholz,"Olaf Scholz, Scholz",Social Democratic Party,Germany,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,86
+Party,Free Democratic Party,FDP,Free Democratic Party,Unknown,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,87
+Party,Christian Social Union in Bavaria,CSU,Christian Social Union in Bavaria,Unknown,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,88
+Name,Christian Democratic Union/Christian Social Union (CDU/CSU),CDU-CSU,Political alliance,Germany,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,89
+Name,Bayer Zsolt,Bayer Zsolt,Fidesz,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,90
+Name,Roberta Metsola,Roberta Metsola,Nationalist Party,Malta,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,91
+Name,Kim Jong Un,Kim Jong Un,Workers' Party of Korea,North Korea,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,92
+Name,European Greens,European Greens,European Green Party,Europe-wide,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,93
+Name,The Green Party,Green party,LMP – Hungary's Green Party,Unknown,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,94
+Name,Attila Mesterházy,Mesterházy Attila,Hungarian Socialist Party,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,95
+Name,Péter Márki-Zay,"MZP, MSZP",DK–MSZP–Dialogue Alliance,Unknown,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,96
+Name,Justin Trudeau,Trudeau,Liberal Party of Canada,Canada,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,97
+Name,Die Grünen – Die Grüne Alternative,die Grünen,The Greens – The Green Alternative,Austria,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,98
+Name,Zuzana Čaputová,Caputová,Progressive Slovakia,Slovakia,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,99
+Name,Rishi Sunak,Sunak,Conservative Party,United Kingdom,0,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,100
+Name,Tibor Szanyi,Szanyi Tibor,Hungarian Socialist Party,Hungary,1,FINAL_NER_2025_17_01/Glossary/Hungary_Glossary.xlsx,Glossary,101
