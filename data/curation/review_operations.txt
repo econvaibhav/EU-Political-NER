@@ -1,0 +1,162 @@
+21 & 1625 & 32 to merge
+26 & 30 to merge
+104 & 111 to merge
+110 & 121 to merge
+128 & 130 to merge
+156 & 157 to merge
+163 & 164 to merge
+173 & 174 to merge
+175 & 145 to merge
+180 & 182 & 186 to merge
+203 to separate
+203 & 204 to merge
+205 to separate
+226 to separate
+219 & 220 to merge
+231 to separate
+231 & 232 to merge
+235 to separate
+205 & 242 to merge
+245 & 246 to merge
+249 & 250 to merge
+33 & 287 & 324 to merge
+330 to separate
+75 & 339 to merge
+333 & 334 to merge
+83 & 324 & 343 to merge
+350 to separate
+375 & 376 to merge
+377 to separate
+404 & 405 & 406 to merge
+426 & 427 to merge
+434 & 441 to merge
+445 & 410 to merge
+448 & 450 to merge
+451 & 452 to merge
+462 & 463 to merge
+432 & 444 to merge
+456 & 458 to merge
+468 & 469 to merge
+481 & 482 to merge
+495 & 496 to merge
+508 & 509 & 510 to merge
+532 & 534 to merge
+546 & 547 to merge
+548 & 549 & 550 to merge
+568 & 569 to merge
+609 & 610 to merge
+634 & 635 to merge
+640 & 641 to merge
+677 & 678 to merge
+691 & 692 to merge
+693 & 695 to merge
+708 & 709 to merge
+717 & 718 to merge
+761 & 762 to merge
+779 & 780 to merge
+791 & 792 to merge
+810 & 811 to merge
+850 & 851 to merge
+897 & 898 to merge
+377 & 910 to merge
+956 & 957 to merge
+967 & 968 to merge
+983 & 984 to merge
+1018 & 1019 & 1020 & 1021 to merge
+1022 & 1023 to merge
+1065 & 1066 & 1067 to merge
+1078 & 1079 to merge
+1094 & 1097 to merge
+1138 & 1141 to merge
+1174 & 1175 to merge
+1176 & 1177 to merge
+1186 & 1187 to merge
+1226 & 1227 to merge
+1238 & 1239 to merge
+1244 & 1245 & 1251 to merge
+1271 & 1272 to merge
+1281 & 1282 to merge
+1287 & 1288 to merge
+1301 & 1302 to merge
+1304 & 1305 to merge
+1347 & 1348 to merge
+1349 & 1350 to merge
+1399 & 1400 to merge
+1426 & 1427 to merge
+1449 & 1450 & 1451 to merge
+1461 & 1462 to merge
+1469 & 1470 to merge
+1485 & 1486 to merge
+1491 & 1492 to merge
+1522 & 1529 to merge
+1536 & 1537 to merge
+1542 & 1543 to merge
+1556 & 1557 to merge
+1565 & 1566 & 1567 & 1568 & 1571 & 1572 to merge
+1585 & 1586 & 1587 to merge
+1582 & 1583 to merge
+1592 & 1593 to merge
+1599 & 1600 & 1601 to merge
+1602 & 1603 to merge
+1619 & 1620 & 1621 to merge
+1627 & 1628 to merge
+1630 & 1633 to merge
+1636 & 1637 & 1638 to merge
+1657 & 1658 to merge
+1679 & 1680 to merge
+1694-1695 to merge
+1698 & 1699 to merge
+1710 & 1711 to merge
+1714 & 1715 to merge
+891 & 1536 & 1537 & 1716 to merge
+1687 & 1724 to merge
+1171 & 1725 to merge
+1618 & 1731 to merge
+1585 & 1587 & 1732 to merge
+1028 & 1733 to merge
+1734 to separate
+1735 to separate
+1737 mixed people and parties
+1738 & 1739 to merge
+1742 to separate
+1747 to delete
+1749 to delete
+1751 & 1754 & 1755 & 1756 to merge
+1762 some entities are included incorrectly
+1766 to delete
+962 to divide
+955 to divide
+915 to divide
+696 to divide
+394 to divide
+395 to divide
+489 to divide
+490 to divide
+491 to divide
+1202 to divide
+1497 to divide
+1638 to divide
+1499 to delete
+1767 & 1768 & 1769 & 1772 to delete
+1785 & 1788 to delete
+1775 & 1776 & 1777 to merge
+1796 & 1797 to merge
+1798 & 1799 to merge
+1810 to delete
+1811 to delete
+1812 to delete
+1818 to delete
+1815 & 1028 to merge
+1820 & 1821 to merge
+1824 to delete
+1825 to delete
+1863 & 1864 & 1865 & 1866 delete
+1871 & 1872 & 1873 to merge
+1877 & 1878 to merge
+1884 & 1885 to merge
+1830 & 1831 & 1832 & 1833 & 1834 to delete
+1835 & 1836 to merge
+1837 & 1838 to merge
+1839 & 1840 & 1846 to delete
+1853 & 1854 to merge
+1856 & 1857 to merge
