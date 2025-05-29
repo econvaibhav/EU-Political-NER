@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "political-actor-ner"
+version = "0.2.0"
+description = "Political actor name matching, party linking and country glossaries"
+requires-python = ">=3.10"
+dependencies = ["thefuzz==0.22.1", "rapidfuzz>=3,<4"]
+
+[project.optional-dependencies]
+spreadsheets = ["openpyxl>=3.1,<4"]
+
+[project.scripts]
+political-ner = "political_ner.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["political_ner*"]

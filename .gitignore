@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.env
+.ipynb_checkpoints/
+data/private/
+outputs/
+*.aux
+*.log
+*.out
+*.pdf
+*.synctex.gz
