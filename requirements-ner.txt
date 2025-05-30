@@ -1,0 +1,7 @@
+# Optional local NER only. The offline matching demo has no external dependencies.
+# Model inference was not run during this packaging review.
+transformers>=4.47,<5
+torch>=2.5,<3
+sentencepiece>=0.2,<1
+safetensors>=0.4,<1
+

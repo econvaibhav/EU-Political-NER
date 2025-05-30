@@ -45,3 +45,35 @@ The review was the core contribution: it covered the reference material, the ini
 
 The notebook's `EU` flag describes country membership. The EP group corrections were a separate manual step; `EU` must not be treated as an EP group label.
 
+## Try the matching code
+
+Python 3.10 or newer:
+
+```bash
+python -m pip install -e .
+python -m political_ner --input examples/mentions.csv --output outputs/matches.jsonl --swedish-greens
+python scripts/build_glossary.py --input outputs/matches.jsonl --output outputs/glossary.csv
+python -m unittest discover -s tests -v
+```
+
+Input needs `mention` and, where available, `source_country`. Existing `NER` and `Country` columns also work. Output includes the name, party, actor country, scores, alternatives and review flags. Use a new output filename for each run.
+
+The default `review` mode keeps competing identities and leaves unresolved ties for checking. `--mode historical` follows the original matching decisions, including its tie and party-override behaviour. The differences are listed in [code changes](docs/code_changes.md). A new automatic run produces matching suggestions; it does not repeat the project's manual searches or final expert reviews.
+
+To prepare the original account-response workbook locally:
+
+```bash
+python -m pip install -e '.[spreadsheets]'
+python scripts/prepare_accounts.py --input 'data/private/research_notes.xlsx' --output outputs/accounts.csv
+```
+
+For the local XLM-R extraction route:
+
+```bash
+python -m pip install -r requirements-ner.txt
+python scripts/extract_mentions.py --input outputs/accounts.csv --output-dir outputs/extraction
+python -m political_ner --input outputs/extraction/mentions.csv --output outputs/account_matches.jsonl
+```
+
+This route downloads model weights. The checkpoint has an English CoNLL-03 NER fine-tuning task, even though XLM-R itself is multilingual. It needs evaluation on the actual languages and handles used here.
+
