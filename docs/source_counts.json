@@ -1,0 +1,29 @@
+{
+  "notebooks": 5,
+  "manual_alias_rows": 275,
+  "manual_candidate_labels": 196,
+  "review_instructions": 162,
+  "review_merge": 122,
+  "review_separate_divide": 23,
+  "review_delete": 15,
+  "review_other": 2,
+  "reference_rows": {
+    "candidates.csv": 1833,
+    "versions/candidates_jan17.csv": 1836,
+    "parties.csv": 573,
+    "versions/parties_jan17.csv": 573,
+    "versions/candidates_earlier_raw.csv": 2128,
+    "versions/parties_earlier.csv": 573,
+    "versions/glossary_cleaned.csv": 1747,
+    "Bulgaria_Glossary": 275,
+    "Croatia_Glossary": 287,
+    "Finland_Glossary": 292,
+    "France_Glossary": 100,
+    "Germany_Glossary": 166,
+    "Hungary_Glossary": 100,
+    "Poland_Glossary": 206,
+    "Portugal_Glossary": 155,
+    "Spain_Glossary": 237,
+    "Sweden_Glossary": 188
+  }
+}
