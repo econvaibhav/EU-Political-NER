@@ -77,3 +77,24 @@ python -m political_ner --input outputs/extraction/mentions.csv --output outputs
 
 This route downloads model weights. The checkpoint has an English CoNLL-03 NER fine-tuning task, even though XLM-R itself is multilingual. It needs evaluation on the actual languages and handles used here.
 
+## Where to look
+
+| Folder | Contents |
+|---|---|
+| `notebooks/` | Original exploratory code, with outputs and hardcoded keys removed |
+| `data/reference/` | Candidate and party tables, earlier versions and country glossaries |
+| `data/curation/` | Manual aliases, review instructions and templates for new decisions |
+| `political_ner/` | Reusable matching code |
+| `scripts/` | Input preparation, local extraction and glossary export |
+| `docs/method.md` | Exact rules, thresholds and notebook cell references |
+| `assets/workflow.tex` | Standalone LaTeX/TikZ visual; compile with pdfLaTeX if needed |
+
+Raw research responses stay in `data/private/`, which Git ignores. The example inputs are illustrative strings, not respondent records.
+
+## Review and reproducibility
+
+The project used full manual review coverage, including every final row. This describes the review process; it is not a measured claim of perfect accuracy. The supplied files do not include a separate held-out accuracy study or a complete record of every expert decision.
+
+The repo keeps working snapshots from different stages. A fresh model or matching run still needs the manual review steps above. The reusable scripts preserve alternatives and mark cases for attention to support that work.
+
+The candidate lists were scraped from country source websites and PDFs. The complete set of collection scripts and source URLs is not included in this export, so that collection stage cannot yet be rerun end to end. The manually corrected EP groups are part of the project workflow; the current matching CLI does not generate an `ep_group` field automatically.
