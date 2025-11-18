@@ -27,7 +27,7 @@ People do not all write political names in the same way. They use surnames, init
 - **275 manual alias rows**, covering 196 distinct candidate labels. These include initials, surnames, spelling variants and some account-style names.
 - Ten country glossaries with **2,006 rows** and **3,401 comma-separated variant items**. These are row/item counts, not unique politicians or accuracy scores.
 - **162 review instructions** to merge, split, delete or check entries.
-- Portable scripts, examples, tests and a LaTeX diagram.
+- Portable scripts, examples and tests.
 
 The reference files keep their recorded spellings and affiliations. They are a research snapshot, so a party label here should not be read as someone's current affiliation.
 
@@ -87,7 +87,6 @@ This route downloads model weights. The checkpoint has an English CoNLL-03 NER f
 | `political_ner/` | Reusable matching code |
 | `scripts/` | Input preparation, local extraction and glossary export |
 | `docs/method.md` | Exact rules, thresholds and notebook cell references |
-| `assets/workflow.tex` | Standalone LaTeX/TikZ visual; compile with pdfLaTeX if needed |
 
 Raw research responses stay in `data/private/`, which Git ignores. The example inputs are illustrative strings, not respondent records.
 
