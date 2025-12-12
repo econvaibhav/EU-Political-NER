@@ -1,6 +1,6 @@
 # Working notebooks
 
-These are the five recovered notebooks. Their code cells keep the original order; cell numbers in the method guide are zero-based. Outputs, execution counts, personal machine paths and hardcoded credentials have been removed. An `import os` was added to the first code cell for environment-based keys.
+These are the five recovered notebooks. Their code cells keep the original order. Outputs, execution counts, personal machine paths and hardcoded credentials have been removed. An `import os` was added to the first code cell for environment-based keys.
 
 | Notebook | What I used it for |
 |---|---|

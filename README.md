@@ -36,7 +36,7 @@ The reference files keep their recorded spellings and affiliations. They are a r
 1. **Build the country references.** Candidate lists came from the original websites for the ten countries, sometimes as webpages and sometimes as PDFs. The programmer and country experts worked on the collection and manually checked the reference material.
 2. **Prepare the responses and extract names.** Correct known identifier typos and keep the response country and platform. The notebooks use local XLM-R extraction and separate prompted extraction experiments for people, parties, abbreviations and handles.
 3. **Review the NER output.** The programmer manually checked all extracted people and parties before using them in the matching and correction work.
-4. **Link people and parties.** Match names and recorded aliases, attach the candidate's party, and use country context to resolve party names and abbreviations. The exact **82 / 85 / 90 / 95** rules are in [the method](docs/method.md).
+4. **Link people and parties.** Match names and recorded aliases, attach the candidate's party, and use country context to resolve party names and abbreviations.
 5. **Search and correct entries one by one.** Resolve misspellings and short names, correct party information and EP group assignments where relevant, and build the glossary from the checked variants. This was manual research, with the glossary itself reviewed too.
 6. **Review every final row.** Multiple political-science and country experts across the ten countries checked the final results. Corrections went back into the data and glossaries.
 7. **Keep the reviewed results for reuse.** Save the corrected identities, affiliations and reusable country dictionaries.
@@ -58,7 +58,7 @@ python -m unittest discover -s tests -v
 
 Input needs `mention` and, where available, `source_country`. Existing `NER` and `Country` columns also work. Output includes the name, party, actor country, scores, alternatives and review flags. Use a new output filename for each run.
 
-The default `review` mode keeps competing identities and leaves unresolved ties for checking. `--mode historical` follows the original matching decisions, including its tie and party-override behaviour. The differences are listed in [code changes](docs/code_changes.md). A new automatic run produces matching suggestions; it does not repeat the project's manual searches or final expert reviews.
+The default `review` mode keeps competing identities and leaves unresolved ties for checking. `--mode historical` follows the original matching decisions, including its tie and party-override behaviour. A new automatic run produces matching suggestions; it does not repeat the project's manual searches or final expert reviews.
 
 To prepare the original account-response workbook locally:
 
@@ -86,7 +86,6 @@ This route downloads model weights. The checkpoint has an English CoNLL-03 NER f
 | `data/curation/` | Manual aliases, review instructions and templates for new decisions |
 | `political_ner/` | Reusable matching code |
 | `scripts/` | Input preparation, local extraction and glossary export |
-| `docs/method.md` | Exact rules, thresholds and notebook cell references |
 
 Raw research responses stay in `data/private/`, which Git ignores. The example inputs are illustrative strings, not respondent records.
 
