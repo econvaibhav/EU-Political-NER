@@ -1,49 +1,42 @@
-# Political actor NER
+# EU Political NER
 
-Finding a name was only the first part. I also needed to work out **who the person was, their party and EP group where relevant, and which country the mention referred to**. The main part of this project was the repeated manual checking around those steps.
+This is my work on identifying political actors in TikTok and Instagram research notes across ten European countries. I worked on it during December 2024–May 2025, mainly on CSC. The aim was to connect the names people actually wrote to the right person, party and country.
 
-This is my work on political actor names in TikTok and Instagram research notes. I worked on it during December 2024–May 2025, mainly on CSC. A lot of the time went into scraping candidate lists from the original country websites, checking webpages and PDFs with country experts, and searching for corrections one by one. The reference lists, NER output and glossaries were all manually reviewed. Every row then went through a final check by multiple political-science and country experts across the ten countries.
+**The country glossaries are one of the biggest contributions of this project.** They bring together months of collecting references, searching names one by one, checking affiliations and reviewing the results with country experts. The examples below show why that work was needed and how to reuse it.
 
-The ten study countries are Bulgaria, Croatia, Finland, France, Germany, Hungary, Poland, Portugal, Spain and Sweden. The references also include international actors who came up in those countries' responses.
+[Browse the glossaries](data/reference/glossaries/) · [See the example results](examples/example_results.jsonl) · [Try the matching code](#try-the-matching-code)
 
-## Why I needed more than NER
+## The country glossaries
 
-People do not all write political names in the same way. They use surnames, initials, account names, local spellings, missing accents and sometimes just a typo. Name order also varies. A party abbreviation can mean something different in another country.
+The ten glossaries cover **Bulgaria, Croatia, Finland, France, Germany, Hungary, Poland, Portugal, Spain and Sweden**. Together, the CSVs contain **2,006 rows and 3,401 recorded variant items**.
 
-| What came up | What I used to handle it |
-|---|---|
-| `Magyar Péter` and `Péter Magyar` | Order-insensitive token matching and saved variants. This is not a rule that blindly swaps everyone's name. |
-| `Ursula vdL`, `Ben Z.`, `Kaleta` | Manually added aliases linked to a full name and party. |
-| `Puigdemonnt`, `Torockay`, `Wiedel` | Observed misspellings in the manual dictionary, plus fuzzy matching. |
-| `PS` in Finland or Portugal | Party names in English and local languages, abbreviations, and country context. |
-| `Greens` in a Swedish response | A separate country-specific correction. |
-| The same surname referring to several people | Manual checking; a high string score alone is not enough. |
-| A US politician mentioned in France | Keep the response country and the actor's country separately. |
+A name can appear in a different order, without accents, as initials, as a surname or with several spelling mistakes. The glossaries keep those observed forms together with a canonical entry, recorded party affiliation and actor country. They also retain the source workbook, sheet and row, so an entry can be traced back to its working reference.
 
-## What is here
+Here are some actual entries. The variants are copied from the CSVs; for the longer entries, only a selection is shown.
 
-- Five working notebooks, including the main matching code and later glossary experiments.
-- A candidate reference with **1,833 nonempty rows** and a party reference with **573 rows**.
-- **275 manual alias rows**, covering 196 distinct candidate labels. These include initials, surnames, spelling variants and some account-style names.
-- Ten country glossaries with **2,006 rows** and **3,401 comma-separated variant items**. These are row/item counts, not unique politicians or accuracy scores.
-- **162 review instructions** to merge, split, delete or check entries.
-- Portable scripts, examples and tests.
+| Canonical entry | Some recorded variants | Variant items in that row | Glossary |
+|---|---|---:|---|
+| Péter Magyar | `Magyar Péter`, `Magyar Peter`, `magyar peter`, `magyar péter` | 4 | [Hungary](data/reference/glossaries/hungary.csv) |
+| Ursula von der Leyen | `U. VdL`, `Ursula vdL`, `Urs. VDL`, `van der Leyen`, `vDL` | 12 | [Germany](data/reference/glossaries/germany.csv) |
+| Jean-Luc Mélenchon | `J L Melenchon`, `JL Melemchon`, `Jl Melanchon`, `Jean Luc Mélenchon`, `Mélenchon`, `Jean-Luck Mélenchon` | 13 | [France](data/reference/glossaries/france.csv) |
+| Jordan Bardella | `Jordna Bardella`, `Jordan Badrella`, `Jondan Bardella`, `Bordella`, `Bardellat` | 12 | [France](data/reference/glossaries/france.csv) |
+| Boyko Borissov | `Boyko Borisov`, `B. Borissov`, `Borssiov`, `Boyko Borrisov`, `Boyko Borisssov` | 11 | [Bulgaria](data/reference/glossaries/bulgaria.csv) |
+| Emmanuel Macron | `Emmanuel Macron`, `Emanuel Macron`, `Macron`, `E Macron` | 6 | [France](data/reference/glossaries/france.csv) |
+| Ben Zyskowicz | `Ben Zyskowicz`, `Ben Z`, `Ben Z.` | 3 | [Finland](data/reference/glossaries/finland.csv) |
+| Pedro Sánchez | `Pedro Sánchez`, `Pedro Sanchez`, `pedrosanchez`, `peedro sanchez` | 6 | [Spain](data/reference/glossaries/spain.csv) |
+| Carles Puigdemont | `Puigdemont`, `Puigdemonnt`, `puigdemont` | 3 | [Spain](data/reference/glossaries/spain.csv) |
 
-The reference files keep their recorded spellings and affiliations. They are a research snapshot, so a party label here should not be read as someone's current affiliation.
+This is the practical value of saving the manual work: the next person can inspect and reuse the recorded variants instead of starting every name search from scratch. The files can support dictionary building, matching and review in another project.
 
-## How the original process worked
+The counts describe rows and comma-separated variant items, including differences in case and repeated actors across country files. They are not counts of unique politicians. A glossary's filename identifies the originating country collection; it can include a foreign politician mentioned there. Affiliations are kept as recorded in the research snapshot.
 
-1. **Build the country references.** Candidate lists came from the original websites for the ten countries, sometimes as webpages and sometimes as PDFs. The programmer and country experts worked on the collection and manually checked the reference material.
-2. **Prepare the responses and extract names.** Correct known identifier typos and keep the response country and platform. The notebooks use local XLM-R extraction and separate prompted extraction experiments for people, parties, abbreviations and handles.
-3. **Review the NER output.** The programmer manually checked all extracted people and parties before using them in the matching and correction work.
-4. **Link people and parties.** Match names and recorded aliases, attach the candidate's party, and use country context to resolve party names and abbreviations.
-5. **Search and correct entries one by one.** Resolve misspellings and short names, correct party information and EP group assignments where relevant, and build the glossary from the checked variants. This was manual research, with the glossary itself reviewed too.
-6. **Review every final row.** Multiple political-science and country experts across the ten countries checked the final results. Corrections went back into the data and glossaries.
-7. **Keep the reviewed results for reuse.** Save the corrected identities, affiliations and reusable country dictionaries.
+## The manual work behind the dictionaries
 
-The review was the core contribution: it covered the reference material, the initial NER output, the glossary and every final row. See [who reviewed what](docs/manual_review.md).
+Candidate lists were scraped from the original country websites, using webpages or PDFs depending on the country. The programmer and country experts collected and checked this reference material. The programmer also manually reviewed the initial NER output for people and parties.
 
-The notebook's `EU` flag describes country membership. The EP group corrections were a separate manual step; `EU` must not be treated as an EP group label.
+Spelling corrections, short names, party information and EP group corrections were researched **one entry at a time**. The glossaries were manually reviewed too. Finally, **every row went through checks by multiple political-science and country experts across the ten countries**. The [review table](docs/manual_review.md) shows who worked on each stage.
+
+Alongside the country glossaries, the repo includes **1,833 candidate-reference rows**, **573 party-reference rows**, **275 manual alias rows** and **162 review instructions**. The aliases and review notes preserve more of the decisions made along the way.
 
 ## Try the matching code
 
