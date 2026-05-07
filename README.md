@@ -38,6 +38,25 @@ Spelling corrections, short names, party information and EP group corrections we
 
 Alongside the country glossaries, the repo includes **1,833 candidate-reference rows**, **573 party-reference rows**, **275 manual alias rows** and **162 review instructions**. The aliases and review notes preserve more of the decisions made along the way.
 
+## Examples: from a mention to a useful result
+
+The [14 example mentions](examples/mentions.csv) and their [complete saved results](examples/example_results.jsonl) are a quick way to see what the matching code does. They cover name order, initials, misspellings, party abbreviations, foreign actors and ambiguous surnames.
+
+| Mention | Response country | Result in the example output |
+|---|---|---|
+| `Magyar Péter` / `Péter Magyar` | Hungary | Péter Magyar; Respect and Freedom Party |
+| `Ursula vdL` | Germany | Ursula von der Leyen; Christian Democratic Union |
+| `Ben Z.` | Finland | Ben Zyskowicz; National Coalition Party |
+| `Puigdemonnt` | Spain | Carles Puigdemont; Together for Catalonia |
+| `PS` | Portugal | Socialist Party |
+| `PS` | Finland | Finns Party |
+| `PS` | Missing | Keeps competing party matches for review |
+| `Greens` | Sweden | Miljöpartiet de Gröna, with the Swedish correction enabled |
+| `Donald Trump` | France | Donald Trump; Republican Party; actor country: United States |
+| `Le Pen` | France | Keeps competing people for review |
+
+Each result preserves the original mention and includes the proposed identity, party, actor country, similarity scores, competing matches and review flags. These are illustrative inputs and automatic matching results. A new research run still goes through manual checking.
+
 ## Try the matching code
 
 Python 3.10 or newer:
