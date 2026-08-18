@@ -4,7 +4,7 @@ This is my work on identifying political actors in TikTok and Instagram research
 
 **The country glossaries are one of the biggest contributions of this project.** They bring together months of collecting references, searching names one by one, checking affiliations and reviewing the results with country experts. The examples below show why that work was needed and how to reuse it.
 
-[Browse the glossaries](data/reference/glossaries/) · [See the example results](examples/example_results.jsonl) · [Try the matching code](#try-the-matching-code)
+[Browse the glossaries](data/reference/glossaries/) · [See the example results](examples/example_results.jsonl) · [Run the replication guide](#replication-guide)
 
 ## The country glossaries
 
@@ -57,54 +57,157 @@ The [14 example mentions](examples/mentions.csv) and their [complete saved resul
 
 Each result preserves the original mention and includes the proposed identity, party, actor country, similarity scores, competing matches and review flags. These are illustrative inputs and automatic matching results. A new research run still goes through manual checking.
 
-## Try the matching code
+## Replication guide
 
-Python 3.10 or newer:
+This guide reproduces the example results and exports a small draft glossary. You need **Git and Python 3.10 or newer**. The matching demo runs locally after installation, with **no API key, model download or CSC access required**. Installation needs access to the Python package index.
+
+Run the commands below in a Linux or macOS terminal. On Windows PowerShell, use `python` in place of `python3` and activate the environment with `.venv\Scripts\Activate.ps1`.
+
+### 1. Get the repository
 
 ```bash
+git clone https://github.com/econvaibhav/EU-Political-NER.git
+cd EU-Political-NER
+```
+
+If you already have it, open that folder instead. Run the remaining commands from the repository root, where `README.md` and `pyproject.toml` are located.
+
+### 2. Create an environment and install the package
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
 python -m pip install -e .
-python -m political_ner --input examples/mentions.csv --output outputs/matches.jsonl --swedish-greens
-python scripts/build_glossary.py --input outputs/matches.jsonl --output outputs/glossary.csv
+```
+
+### 3. Check that the code works
+
+```bash
 python -m unittest discover -s tests -v
 ```
 
-Input needs `mention` and, where available, `source_country`. Existing `NER` and `Country` columns also work. Output includes the name, party, actor country, scores, alternatives and review flags. Use a new output filename for each run.
+Expected result: **14 tests pass**, ending with `OK`.
 
-The default `review` mode keeps competing identities and leaves unresolved ties for checking. `--mode historical` follows the original matching decisions, including its tie and party-override behaviour. A new automatic run produces matching suggestions; it does not repeat the project's manual searches or final expert reviews.
-
-To prepare the original account-response workbook locally:
+### 4. Reproduce the example matches
 
 ```bash
-python -m pip install -e '.[spreadsheets]'
-python scripts/prepare_accounts.py --input 'data/private/research_notes.xlsx' --output outputs/accounts.csv
+python -m political_ner --input examples/mentions.csv --output outputs/demo_matches.jsonl --swedish-greens
 ```
 
-For the local XLM-R extraction route:
+Expected message:
+
+```text
+Wrote 14 mentions; 4 flagged for review.
+```
+
+`--swedish-greens` enables the Sweden-specific correction used in the saved example results. `outputs/demo_matches.jsonl` contains one JSON object per input mention.
+
+To compare every result with the saved example output, run:
+
+```bash
+python - <<'PY'
+import json
+from pathlib import Path
+
+
+def read_results(filename):
+    return [json.loads(line) for line in Path(filename).read_text(encoding="utf-8").splitlines() if line.strip()]
+
+
+actual = read_results("outputs/demo_matches.jsonl")
+expected = read_results("examples/example_results.jsonl")
+if actual != expected:
+    raise SystemExit("Results differ. Check the package versions, data and command flags.")
+print(f"All {len(actual)} results match the saved examples.")
+PY
+```
+
+This comparison block uses Linux/macOS shell syntax. It can also be run by copying the Python lines between the two `PY` markers into a `.py` file.
+
+### 5. Export a draft glossary
+
+```bash
+python scripts/build_glossary.py --input outputs/demo_matches.jsonl --output outputs/demo_glossary.csv
+```
+
+Open `outputs/demo_glossary.csv` in a spreadsheet or text editor. It groups mentions by entry, party and actor country, and collects their variants. The exporter skips flagged results by default. This small demo export is separate from the ten country glossaries created during the project; review its entries before reuse.
+
+The scripts keep existing outputs safe. To repeat a run, choose a new output filename, such as `outputs/demo_matches_02.jsonl`, and use that same filename as the input to the next step.
+
+### 6. Run your own mentions
+
+Create a UTF-8 CSV with this structure:
+
+```csv
+record_id,mention,source_country
+mine01,Ursula vdL,Germany
+mine02,Magyar Péter,Hungary
+mine03,PS,Portugal
+```
+
+`mention` is required. `record_id` identifies each row, and `source_country` supplies context where known. Use full country names such as `Hungary` or `Portugal`. Existing input columns called `NER` and `Country` are also supported.
+
+Save your CSV as `data/private/my_mentions.csv`, creating `data/private/` first if needed. That folder is excluded from Git. Then run:
+
+```bash
+python -m political_ner --input data/private/my_mentions.csv --output outputs/my_matches.jsonl --swedish-greens
+```
+
+Review the suggested identities and affiliations, including `person_alternatives`, `party_alternatives` and `review_reasons`. `needs_review=false` means that no automatic review flag fired; every row still belongs in the manual review process.
+
+The default `review` mode preserves competing identities and leaves unresolved ties for checking. Add `--mode historical` to reproduce the original matching decisions, including the original tie and party-override behaviour.
+
+The matcher loads `data/reference/candidates.csv`, `data/reference/parties.csv` and `data/curation/manual_aliases.csv`. The ten country glossary CSVs are separate outputs for inspection and reuse; they are not automatically loaded by this command.
+
+### Optional: start from full text
+
+If your input contains full responses rather than extracted names, use the local NER script first. Prepare a CSV at `data/private/documents.csv` with these columns:
+
+```csv
+document_id,text,source_country
+text01,"Péter Magyar and Viktor Orbán were mentioned.",Hungary
+```
+
+Install the optional dependencies and extract mentions:
 
 ```bash
 python -m pip install -r requirements-ner.txt
-python scripts/extract_mentions.py --input outputs/accounts.csv --output-dir outputs/extraction
-python -m political_ner --input outputs/extraction/mentions.csv --output outputs/account_matches.jsonl
+python scripts/extract_mentions.py --input data/private/documents.csv --output-dir outputs/extraction
 ```
 
-This route downloads model weights. The checkpoint has an English CoNLL-03 NER fine-tuning task, even though XLM-R itself is multilingual. It needs evaluation on the actual languages and handles used here.
+This step downloads model weights and runs the local XLM-R checkpoint. Its NER fine-tuning task is English CoNLL-03; check the extracted names carefully for your study languages. The output folder contains `mentions.csv` and `extraction_report.json`, including documents where no entities were found.
+
+Manually check `outputs/extraction/mentions.csv`, then match the reviewed mentions:
+
+```bash
+python -m political_ner --input outputs/extraction/mentions.csv --output outputs/text_matches.jsonl --swedish-greens
+```
+
+For repeatable extraction, pass a fixed model commit hash with `--revision`. For another run, choose a new extraction output directory.
+
+If you have the original research workbook layout, `scripts/prepare_accounts.py` can create the document CSV first:
+
+```bash
+python -m pip install -e '.[spreadsheets]'
+python scripts/prepare_accounts.py --input data/private/research_notes.xlsx --output outputs/accounts.csv
+```
+
+Use `outputs/accounts.csv` as the extraction input in that case. The preparation script expects the original column labels defined in `scripts/prepare_accounts.py`.
+
+EP group assignments were researched manually. The CLI's `EU` field describes country membership, and EP group information belongs in a separate reviewed field.
 
 ## Where to look
 
-| Folder | Contents |
+| Location | What is there |
 |---|---|
-| `notebooks/` | Original exploratory code, with outputs and hardcoded keys removed |
-| `data/reference/` | Candidate and party tables, earlier versions and country glossaries |
-| `data/curation/` | Manual aliases, review instructions and templates for new decisions |
-| `political_ner/` | Reusable matching code |
-| `scripts/` | Input preparation, local extraction and glossary export |
+| [Country glossaries](data/reference/glossaries/) | Ten reusable dictionaries of entries and observed variants |
+| [Reference tables](data/reference/) | Candidates, parties and earlier working versions |
+| [Manual curation](data/curation/) | Aliases, review instructions and templates for new corrections and sources |
+| [Examples](examples/) | Fourteen example inputs and their complete matching results |
+| [Matching package](political_ner/) | Reusable person and party matching code |
+| [Scripts](scripts/) | Input preparation, optional local NER and glossary export |
+| [Notebooks](notebooks/) | Original exploratory work, with outputs and hardcoded keys removed |
+| [Review table](docs/manual_review.md) | Who collected, checked and reviewed each stage |
+| [Output fields](docs/data_schema.md) | Explanation of the fields in a matching result |
 
-Raw research responses stay in `data/private/`, which Git ignores. The example inputs are illustrative strings, not respondent records.
-
-## Review and reproducibility
-
-The project used full manual review coverage, including every final row. This describes the review process; it is not a measured claim of perfect accuracy. The supplied files do not include a separate held-out accuracy study or a complete record of every expert decision.
-
-The repo keeps working snapshots from different stages. A fresh model or matching run still needs the manual review steps above. The reusable scripts preserve alternatives and mark cases for attention to support that work.
-
-The candidate lists were scraped from country source websites and PDFs. The complete set of collection scripts and source URLs is not included in this export, so that collection stage cannot yet be rerun end to end. The manually corrected EP groups are part of the project workflow; the current matching CLI does not generate an `ep_group` field automatically.
+The runnable guide covers the packaged extraction, matching and export steps. The original website/PDF collection scripts and complete source URL log are not included. The manual searches and expert reviews are part of the research work that surrounds these commands.
