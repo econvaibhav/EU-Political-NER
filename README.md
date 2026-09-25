@@ -12,6 +12,9 @@ The aim here to map the names people actually wrote in thier observational notes
 
 [Run the replication guide](#replication-guide)
 
+<img width="827" height="690" alt="image" src="https://github.com/user-attachments/assets/4dc6b9c8-6d22-4d95-a140-fd7554722fc2" />
+
+
 ## The country glossaries
 
 The ten glossaries cover **Bulgaria, Croatia, Finland, France, Germany, Hungary, Poland, Portugal, Spain and Sweden**. Together, the CSVs contain **2,006 rows and 3,401 recorded variant items**.
