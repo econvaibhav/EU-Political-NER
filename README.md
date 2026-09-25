@@ -4,7 +4,9 @@ The aim here to map the names people actually wrote in thier observational notes
 
 **The country glossaries is one of the biggest contributions of this project.** It bring together months of collecting references, searching names one by one, checking affiliations and reviewing the results with country experts. The data was also scraped from multiple offical country websites. The examples below show why that work was needed and how to reuse it.
 
-[Browse the glossaries](data/reference/glossaries/) · [See the example results; refer to review needed key too as it is important part of this project -- CODE + HUMAN REVIEW](examples/example_results.jsonl) · [Run the replication guide](#replication-guide)
+[Browse the glossaries](data/reference/glossaries/)
+[See the example results; refer to review needed key too as it is important part of this project -- CODE + HUMAN REVIEW](examples/example_results.jsonl) 
+[Run the replication guide](#replication-guide)
 
 ## The country glossaries
 
