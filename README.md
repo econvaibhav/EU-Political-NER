@@ -1,8 +1,8 @@
 # EU Political NER
 
-This is my work on identifying political actors in TikTok and Instagram research notes across ten European countries. I worked on it during December 2024–May 2025, mainly on CSC. The aim was to connect the names people actually wrote to the right person, party and country.
+The aim here to map the names people actually wrote in thier observational notes about parties and political actors they saw on Instagram and Tiktok to the right person, party and country. People many times use the wrong spelling, make up shortforms of the name and rarely ever write the full name, party and country affiliations together. WHile is extremly useful information for research, asking data gatherers to do to this and maintain high accuracy is very hard. Hence this repo does the work for you -- It takes the EU Political entities data gathers might have seen and makes it uniform, **ready for interpretations**!
 
-**The country glossaries are one of the biggest contributions of this project.** They bring together months of collecting references, searching names one by one, checking affiliations and reviewing the results with country experts. The examples below show why that work was needed and how to reuse it.
+**The country glossaries is one of the biggest contributions of this project.** It bring together months of collecting references, searching names one by one, checking affiliations and reviewing the results with country experts. The examples below show why that work was needed and how to reuse it.
 
 [Browse the glossaries](data/reference/glossaries/) · [See the example results](examples/example_results.jsonl) · [Run the replication guide](#replication-guide)
 
