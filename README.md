@@ -5,14 +5,18 @@ The aim here to map the names people actually wrote in thier observational notes
 **The country glossaries is one of the biggest contributions of this project.** It bring together months of collecting references, searching names one by one, checking affiliations and reviewing the results with country experts. The data was also scraped from multiple offical country websites. The examples below show why that work was needed and how to reuse it.
 
 [Browse the glossaries](data/reference/glossaries/)
+
+
 [See the example results; refer to review needed key too as it is important part of this project -- CODE + HUMAN REVIEW](examples/example_results.jsonl) 
+
+
 [Run the replication guide](#replication-guide)
 
 ## The country glossaries
 
 The ten glossaries cover **Bulgaria, Croatia, Finland, France, Germany, Hungary, Poland, Portugal, Spain and Sweden**. Together, the CSVs contain **2,006 rows and 3,401 recorded variant items**.
 
-A name can appear in a different order, without accents, as initials, as a surname or with several spelling mistakes. The glossaries keep those observed forms together with a canonical entry, recorded party affiliation and actor country. They also retain the source workbook, sheet and row, so an entry can be traced back to its working reference.
+Any name can appear in a different order, without accents, as initials, as a surname or with several spelling mistakes. The glossaries keep those observed forms together with a canonical entry, recorded party affiliation and actor country. They also retain the source workbook, sheet and row, so an entry can be traced back to its working reference. The glossary refers to persons/parties seem for specific country accounts in IT/TK. Hence, they have the country column! 
 
 Here are some actual entries. The variants are copied from the CSVs; for the longer entries, only a selection is shown.
 
@@ -21,16 +25,11 @@ Here are some actual entries. The variants are copied from the CSVs; for the lon
 | Péter Magyar | `Magyar Péter`, `Magyar Peter`, `magyar peter`, `magyar péter` | 4 | [Hungary](data/reference/glossaries/hungary.csv) |
 | Ursula von der Leyen | `U. VdL`, `Ursula vdL`, `Urs. VDL`, `van der Leyen`, `vDL` | 12 | [Germany](data/reference/glossaries/germany.csv) |
 | Jean-Luc Mélenchon | `J L Melenchon`, `JL Melemchon`, `Jl Melanchon`, `Jean Luc Mélenchon`, `Mélenchon`, `Jean-Luck Mélenchon` | 13 | [France](data/reference/glossaries/france.csv) |
-| Jordan Bardella | `Jordna Bardella`, `Jordan Badrella`, `Jondan Bardella`, `Bordella`, `Bardellat` | 12 | [France](data/reference/glossaries/france.csv) |
 | Boyko Borissov | `Boyko Borisov`, `B. Borissov`, `Borssiov`, `Boyko Borrisov`, `Boyko Borisssov` | 11 | [Bulgaria](data/reference/glossaries/bulgaria.csv) |
-| Emmanuel Macron | `Emmanuel Macron`, `Emanuel Macron`, `Macron`, `E Macron` | 6 | [France](data/reference/glossaries/france.csv) |
 | Ben Zyskowicz | `Ben Zyskowicz`, `Ben Z`, `Ben Z.` | 3 | [Finland](data/reference/glossaries/finland.csv) |
 | Pedro Sánchez | `Pedro Sánchez`, `Pedro Sanchez`, `pedrosanchez`, `peedro sanchez` | 6 | [Spain](data/reference/glossaries/spain.csv) |
-| Carles Puigdemont | `Puigdemont`, `Puigdemonnt`, `puigdemont` | 3 | [Spain](data/reference/glossaries/spain.csv) |
 
 This is the practical value of saving the manual work: the next person can inspect and reuse the recorded variants instead of starting every name search from scratch. The files can support dictionary building, matching and review in another project.
-
-The counts describe rows and comma-separated variant items, including differences in case and repeated actors across country files. They are not counts of unique politicians. A glossary's filename identifies the originating country collection; it can include a foreign politician mentioned there. Affiliations are kept as recorded in the research snapshot.
 
 ## The manual work behind the dictionaries
 
@@ -40,9 +39,7 @@ Spelling corrections, short names, party information and EP group corrections we
 
 Alongside the country glossaries, the repo includes **1,833 candidate-reference rows**, **573 party-reference rows**, **275 manual alias rows** and **162 review instructions**. The aliases and review notes preserve more of the decisions made along the way.
 
-## Examples: from a mention to a useful result
-
-The [14 example mentions](examples/mentions.csv) and their [complete saved results](examples/example_results.jsonl) are a quick way to see what the matching code does. They cover name order, initials, misspellings, party abbreviations, foreign actors and ambiguous surnames.
+## Examples: 
 
 | Mention | Response country | Result in the example output |
 |---|---|---|
@@ -57,13 +54,9 @@ The [14 example mentions](examples/mentions.csv) and their [complete saved resul
 | `Donald Trump` | France | Donald Trump; Republican Party; actor country: United States |
 | `Le Pen` | France | Keeps competing people for review |
 
-Each result preserves the original mention and includes the proposed identity, party, actor country, similarity scores, competing matches and review flags. These are illustrative inputs and automatic matching results. A new research run still goes through manual checking.
+Each result preserves the original mention and includes the proposed identity, party, actor country, similarity scores, competing matches and review flags. These are illustrative inputs and automatic matching results. **A new research run still goes through manual checking.**
 
 ## Replication guide
-
-This guide reproduces the example results and exports a small draft glossary. You need **Git and Python 3.10 or newer**. The matching demo runs locally after installation, with **no API key, model download or CSC access required**. Installation needs access to the Python package index.
-
-Run the commands below in a Linux or macOS terminal. On Windows PowerShell, use `python` in place of `python3` and activate the environment with `.venv\Scripts\Activate.ps1`.
 
 ### 1. Get the repository
 
@@ -71,8 +64,6 @@ Run the commands below in a Linux or macOS terminal. On Windows PowerShell, use 
 git clone https://github.com/econvaibhav/EU-Political-NER.git
 cd EU-Political-NER
 ```
-
-If you already have it, open that folder instead. Run the remaining commands from the repository root, where `README.md` and `pyproject.toml` are located.
 
 ### 2. Create an environment and install the package
 
@@ -124,17 +115,13 @@ print(f"All {len(actual)} results match the saved examples.")
 PY
 ```
 
-This comparison block uses Linux/macOS shell syntax. It can also be run by copying the Python lines between the two `PY` markers into a `.py` file.
-
 ### 5. Export a draft glossary
 
 ```bash
 python scripts/build_glossary.py --input outputs/demo_matches.jsonl --output outputs/demo_glossary.csv
 ```
 
-Open `outputs/demo_glossary.csv` in a spreadsheet or text editor. It groups mentions by entry, party and actor country, and collects their variants. The exporter skips flagged results by default. This small demo export is separate from the ten country glossaries created during the project; review its entries before reuse.
-
-The scripts keep existing outputs safe. To repeat a run, choose a new output filename, such as `outputs/demo_matches_02.jsonl`, and use that same filename as the input to the next step.
+Open `outputs/demo_glossary.csv` in a spreadsheet or text editor. It groups mentions by entry, party and actor country, and collects their variants. 
 
 ### 6. Run your own mentions
 
@@ -156,10 +143,6 @@ python -m political_ner --input data/private/my_mentions.csv --output outputs/my
 ```
 
 Review the suggested identities and affiliations, including `person_alternatives`, `party_alternatives` and `review_reasons`. `needs_review=false` means that no automatic review flag fired; every row still belongs in the manual review process.
-
-The default `review` mode preserves competing identities and leaves unresolved ties for checking. Add `--mode historical` to reproduce the original matching decisions, including the original tie and party-override behaviour.
-
-The matcher loads `data/reference/candidates.csv`, `data/reference/parties.csv` and `data/curation/manual_aliases.csv`. The ten country glossary CSVs are separate outputs for inspection and reuse; they are not automatically loaded by this command.
 
 ### Optional: start from full text
 
@@ -184,32 +167,3 @@ Manually check `outputs/extraction/mentions.csv`, then match the reviewed mentio
 ```bash
 python -m political_ner --input outputs/extraction/mentions.csv --output outputs/text_matches.jsonl --swedish-greens
 ```
-
-For repeatable extraction, pass a fixed model commit hash with `--revision`. For another run, choose a new extraction output directory.
-
-If you have the original research workbook layout, `scripts/prepare_accounts.py` can create the document CSV first:
-
-```bash
-python -m pip install -e '.[spreadsheets]'
-python scripts/prepare_accounts.py --input data/private/research_notes.xlsx --output outputs/accounts.csv
-```
-
-Use `outputs/accounts.csv` as the extraction input in that case. The preparation script expects the original column labels defined in `scripts/prepare_accounts.py`.
-
-EP group assignments were researched manually. The CLI's `EU` field describes country membership, and EP group information belongs in a separate reviewed field.
-
-## Where to look
-
-| Location | What is there |
-|---|---|
-| [Country glossaries](data/reference/glossaries/) | Ten reusable dictionaries of entries and observed variants |
-| [Reference tables](data/reference/) | Candidates, parties and earlier working versions |
-| [Manual curation](data/curation/) | Aliases, review instructions and templates for new corrections and sources |
-| [Examples](examples/) | Fourteen example inputs and their complete matching results |
-| [Matching package](political_ner/) | Reusable person and party matching code |
-| [Scripts](scripts/) | Input preparation, optional local NER and glossary export |
-| [Notebooks](notebooks/) | Original exploratory work, with outputs and hardcoded keys removed |
-| [Review table](docs/manual_review.md) | Who collected, checked and reviewed each stage |
-| [Output fields](docs/data_schema.md) | Explanation of the fields in a matching result |
-
-The runnable guide covers the packaged extraction, matching and export steps. The original website/PDF collection scripts and complete source URL log are not included. The manual searches and expert reviews are part of the research work that surrounds these commands.
